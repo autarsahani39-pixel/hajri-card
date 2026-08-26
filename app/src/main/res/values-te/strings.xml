@@ -1,0 +1,284 @@
+<resources>
+    <!-- App & Brand -->
+    <string name="app_name">హాజరీ కార్డు</string>
+    <string name="app_tagline">హాజరు, వేతనం మరియు అడ్వాన్స్ ఖాతా నిర్వహణ</string>
+    <string name="app_version_label">హాజరీ కార్డు v1.0.0</string>
+    <string name="app_description">కార్మికులు/సిబ్బంది హాజరు, అడ్వాన్స్ మరియు డిజిటల్ మస్టర్ కార్డు నిర్వహణ యాప్.</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">సేవ్ చేయండి</string>
+    <string name="common_cancel">రద్దు చేయండి</string>
+    <string name="common_delete">తొలగించండి</string>
+    <string name="common_edit">సవరించండి</string>
+    <string name="common_close">మూసివేయండి</string>
+    <string name="common_back">వెనుకకు</string>
+    <string name="common_confirm">ధృవీకరించండి</string>
+    <string name="common_yes">అవును</string>
+    <string name="common_no">కాదు</string>
+    <string name="common_ok">సరే</string>
+    <string name="common_search">వెతకండి</string>
+    <string name="common_filter">ఫిల్టర్</string>
+    <string name="common_all">అన్నీ</string>
+    <string name="common_total">మొత్తం</string>
+    <string name="common_date">తేదీ</string>
+    <string name="common_time">సమయం</string>
+    <string name="common_status">స్థితి</string>
+    <string name="common_amount">మొత్తం</string>
+    <string name="common_days">రోజులు</string>
+    <string name="common_hours">గంటలు</string>
+    <string name="common_notes">గమనిక / వివరాలు</string>
+    <string name="common_actions">చర్యలు</string>
+    <string name="common_rupee_symbol">₹</string>
+
+    <!-- Navigation Titles & Tabs -->
+    <string name="nav_home">హోమ్</string>
+    <string name="nav_workers">కార్మికులు</string>
+    <string name="nav_attendance">హాజరు</string>
+    <string name="nav_muster">మస్టర్</string>
+    <string name="nav_salary">జీతం</string>
+    <string name="nav_advance">అడ్వాన్స్</string>
+    <string name="nav_reports">నివేదికలు</string>
+    <string name="nav_settings">సెట్టింగ్‌లు</string>
+
+    <string name="title_home">హాజరీ కార్డు</string>
+    <string name="title_workers">కార్మికుల జాబితా</string>
+    <string name="title_attendance">రోజువారీ హాజరు</string>
+    <string name="title_muster">డిజిటల్ మస్టర్ కార్డు</string>
+    <string name="title_advance">అడ్వాన్స్ లెడ్జర్</string>
+    <string name="title_salary">జీతాల షీట్</string>
+    <string name="title_reports">నెలవారీ నివేదికలు</string>
+    <string name="title_settings">సెట్టింగ్‌లు</string>
+    <string name="title_add_worker">కార్మికుడిని చేర్చండి</string>
+    <string name="title_edit_worker">కార్మికుడి వివరాలు మార్చండి</string>
+
+    <!-- Home / Dashboard -->
+    <string name="home_mark_all_present">ఈరోజు అందరినీ హాజరు చేయండి</string>
+    <string name="home_monthly_overview">నెలవారీ సారాంశం</string>
+    <string name="home_stat_workers">కార్మికులు</string>
+    <string name="home_stat_present">హాజరు</string>
+    <string name="home_stat_absent">గైర్హాజరు</string>
+    <string name="home_stat_advance">మొత్తం అడ్వాన్స్</string>
+    <string name="home_stat_net_payable">చెల్లించాల్సిన నికర మొత్తం</string>
+    <string name="home_stat_total_active">మొత్తం యాక్టివ్</string>
+    <string name="home_stat_today">ఈరోజు</string>
+    <string name="home_stat_this_month">ఈ నెల</string>
+    <string name="home_stat_pending_balance">మిగిలిన బ్యాలెన్స్</string>
+    <string name="home_quick_menu">త్వరిత మెనూ</string>
+    <string name="home_worker_muster_cards">కార్మికుల మస్టర్ కార్డులు</string>
+    <string name="home_view_all">అన్నీ చూడండి</string>
+    <string name="home_no_workers_registered">ఇంకా ఎటువంటి కార్మికులు నమోదు కాలేదు</string>
+    <string name="home_add_worker_cta">కార్మికుడిని చేర్చండి</string>
+    <string name="home_present_prefix">హాజరు:</string>
+    <string name="home_adv_prefix">అడ్వాన్స్:</string>
+    <string name="home_net_wage_prefix">నికర వేతనం:</string>
+
+    <!-- Quick Menu Items -->
+    <string name="menu_add_worker_title">కార్మికుడిని చేర్చండి</string>
+    <string name="menu_add_worker_desc">కొత్త ఉద్యోగి నమోదు</string>
+    <string name="menu_all_workers_title">అందరు కార్మికులు</string>
+    <string name="menu_all_workers_desc">సిబ్బందిని వీక్షించండి &amp; నిర్వహించండి</string>
+    <string name="menu_daily_att_title">రోజువారీ హాజరు</string>
+    <string name="menu_daily_att_desc">నేటి హాజరును నమోదు చేయండి</string>
+    <string name="menu_muster_card_title">మస్టర్ కార్డు</string>
+    <string name="menu_muster_card_desc">నెలవారీ కార్డు &amp; సంతకం</string>
+    <string name="menu_advance_title">అడ్వాన్స్ లెడ్జర్</string>
+    <string name="menu_advance_desc">అడ్వాన్సులు మరియు రుణాలు</string>
+    <string name="menu_salary_title">జీతం లెక్కించడం</string>
+    <string name="menu_salary_desc">నెలవారీ వేతన చెల్లింపులు</string>
+    <string name="menu_reports_title">నివేదికలు &amp; PDF</string>
+    <string name="menu_reports_desc">షీట్లు డౌన్‌లోడ్ &amp; ప్రింట్ చేయండి</string>
+    <string name="menu_settings_title">సెట్టింగ్‌లు</string>
+    <string name="menu_settings_desc">భాష, ప్రొఫైల్ &amp; బ్యాకప్</string>
+
+    <!-- Attendance Screen -->
+    <string name="att_status_present">హాజరు</string>
+    <string name="att_status_absent">గైర్హాజరు</string>
+    <string name="att_status_half_day">హాఫ్ డే</string>
+    <string name="att_status_overtime">ఓవర్‌టైమ్</string>
+    <string name="att_status_holiday">సెలవు</string>
+    <string name="att_btn_present">హాజరు (P)</string>
+    <string name="att_btn_absent">గైర్హాజరు (A)</string>
+    <string name="att_btn_half_day">హాఫ్ డే (HD)</string>
+    <string name="att_btn_overtime">ఓవర్‌టైమ్ (OT)</string>
+    <string name="att_btn_holiday">సెలవు (H)</string>
+    <string name="att_select_date">తేదీని ఎంచుకోండి</string>
+    <string name="att_mark_all_present_btn">అందరినీ హాజరు చేయండి</string>
+    <string name="att_total_workers_count">మొత్తం సిబ్బంది</string>
+    <string name="att_present_count">హాజరు</string>
+    <string name="att_absent_count">గైర్హాజరు</string>
+    <string name="att_half_day_count">హాఫ్ డే</string>
+    <string name="att_overtime_count">ఓవర్‌టైమ్</string>
+    <string name="att_holiday_count">సెలవు</string>
+    <string name="att_overtime_hours_hint">OT గంటలు</string>
+    <string name="att_notes_hint">నేటి కోసం వివరాలు / గమనిక</string>
+    <string name="att_save_success_toast">హాజరు విజయవంతంగా సేవ్ చేయబడింది!</string>
+    <string name="att_no_workers_msg">కార్మికులు లేరు. దయచేసి మొదట కార్మికులను చేర్చండి.</string>
+
+    <!-- Worker Management -->
+    <string name="worker_search_hint">పేరు, ఐడి లేదా ఫోన్ నంబర్ ద్వారా వెతకండి...</string>
+    <string name="worker_add_new_btn">కొత్త కార్మికుడిని చేర్చండి</string>
+    <string name="worker_name_label">పూర్తి పేరు *</string>
+    <string name="worker_id_label">కార్మికుడి ఐడి / కోడ్</string>
+    <string name="worker_phone_label">మొబైల్ నంబర్</string>
+    <string name="worker_job_label">పదవి / పని రకం</string>
+    <string name="worker_wage_type_label">వేతన విధానం</string>
+    <string name="worker_wage_daily">రోజువారీ వేతనం (రోజుకు)</string>
+    <string name="worker_wage_monthly">నెలవారీ స్థిర జీతం</string>
+    <string name="worker_wage_hourly">గంటల వారీ వేతనం</string>
+    <string name="worker_wage_rate_label">వేతనం / రేటు మొత్తం (₹) *</string>
+    <string name="worker_ot_rate_label">ఓవర్‌టైమ్ రేటు గంటకు (₹)</string>
+    <string name="worker_joining_date_label">చేరిన తేదీ</string>
+    <string name="worker_address_label">చిరునామా</string>
+    <string name="worker_save_btn">కార్మికుడిని సేవ్ చేయండి</string>
+    <string name="worker_update_btn">వివరాలు అప్‌డేట్ చేయండి</string>
+    <string name="worker_delete_btn">కార్మికుడిని తొలగించండి</string>
+    <string name="worker_delete_title">కార్మికుడిని తొలగించాలా?</string>
+    <string name="worker_delete_msg">మీరు ఖచ్చితంగా ఈ కార్మికుడిని తొలగించాలనుకుంటున్నారా? వారి అన్ని హాజరు మరియు అడ్వాన్స్ రికార్డులు కూడా తొలగించబడతాయి.</string>
+    <string name="worker_saved_toast">కార్మికుడి వివరాలు భద్రపరచబడ్డాయి!</string>
+    <string name="worker_deleted_toast">కార్మికుడు తొలగించబడ్డాడు.</string>
+    <string name="worker_no_records">జాబితాలో కార్మికులు ఎవరూ లేరు.</string>
+
+    <!-- Muster Card & Reports -->
+    <string name="muster_select_worker_hint">డిజిటల్ మస్టర్ కార్డు వీక్షించడానికి కార్మికుడిని ఎంచుకోండి</string>
+    <string name="muster_card_header">నెలవారీ మస్టర్ రోల్ మరియు హాజరు కార్డు</string>
+    <string name="muster_working_days">మొత్తం పని దినాలు</string>
+    <string name="muster_present_days">హాజరైన రోజులు</string>
+    <string name="muster_absent_days">గైర్హాజరు రోజులు</string>
+    <string name="muster_half_days">హాఫ్ డేలు</string>
+    <string name="muster_holidays">సెలవులు</string>
+    <string name="muster_ot_hours">ఓవర్‌టైమ్ గంటలు</string>
+    <string name="muster_total_earned">మొత్తం సంపాదించిన వేతనం</string>
+    <string name="muster_advance_paid">తీసివేసిన అడ్వాన్స్</string>
+    <string name="muster_net_payable">చెల్లించాల్సిన నికర మొత్తం</string>
+    <string name="muster_worker_sign">కార్మికుడి సంతకం / వేలిముద్ర</string>
+    <string name="muster_owner_sign">మేనేజర్ / యజమాని సంతకం</string>
+    <string name="muster_export_pdf_btn">PDF మస్టర్ కార్డు డౌన్‌లోడ్ చేయండి</string>
+    <string name="muster_share_whatsapp_btn">వాట్సాప్‌లో షేర్ చేయండి</string>
+    <string name="muster_downloading_pdf">మస్టర్ కార్డు PDF సిద్ధమవుతోంది...</string>
+
+    <!-- Advance Ledger -->
+    <string name="advance_title">అడ్వాన్స్ మరియు రుణాల ఖాతా</string>
+    <string name="advance_add_btn">అడ్వాన్స్ చేర్చండి</string>
+    <string name="advance_record_dialog_title">ఇచ్చిన అడ్వాన్స్‌ను నమోదు చేయండి</string>
+    <string name="advance_select_worker">కార్మికుడిని ఎంచుకోండి *</string>
+    <string name="advance_amount_label">అడ్వాన్స్ మొత్తం (₹) *</string>
+    <string name="advance_date_label">చెల్లించిన తేదీ</string>
+    <string name="advance_payment_mode">చెల్లింపు విధానం (నగదు/UPI/బ్యాంక్)</string>
+    <string name="advance_notes_label">కారణం / గమనిక</string>
+    <string name="advance_history_title">ఈ నెల అడ్వాన్స్ చరిత్ర</string>
+    <string name="advance_no_records">ఈ నెల ఎటువంటి అడ్వాన్స్ రికార్డులు లేవు.</string>
+    <string name="advance_delete_title">అడ్వాన్స్ రికార్డును తొలగించాలా?</string>
+    <string name="advance_delete_msg">మీరు ఖచ్చితంగా ఈ అడ్వాన్స్ రికార్డును తొలగించాలనుకుంటున్నారా?</string>
+    <string name="advance_saved_toast">అడ్వాన్స్ రికార్డు విజయవంతంగా భద్రపరచబడింది!</string>
+    <string name="advance_deleted_toast">అడ్వాన్స్ రికార్డు తొలగించబడింది.</string>
+
+    <!-- Salary Calculation -->
+    <string name="salary_title">జీతాల లెక్కలు &amp; చెల్లింపులు</string>
+    <string name="salary_total_payout">మొత్తం నికర చెల్లింపు</string>
+    <string name="salary_total_advances">మొత్తం అడ్వాన్స్ మినహాయింపు</string>
+    <string name="salary_total_gross">మొత్తం స్థూల వేతనం</string>
+    <string name="salary_settle_btn">చెల్లింపు పూర్తయినట్లు గుర్తించండి</string>
+    <string name="salary_download_excel">ఎక్సెల్ షీట్ డౌన్‌లోడ్ చేయండి</string>
+    <string name="salary_download_pdf">PDF షీట్ డౌన్‌లోడ్ చేయండి</string>
+
+    <!-- Reports -->
+    <string name="reports_title">నెలవారీ నివేదికలు &amp; విశ్లేషణ</string>
+    <string name="reports_monthly_attendance">నెలవారీ హాజరు మస్టర్ నివేదిక</string>
+    <string name="reports_wage_register">వేతన మరియు చెల్లింపు రిజిస్టర్</string>
+    <string name="reports_advance_ledger">కార్మికుల అడ్వాన్స్ లెడ్జర్</string>
+    <string name="reports_export_all_pdf">పూర్తి నెలవారీ PDF డౌన్‌లోడ్ చేయండి</string>
+
+    <!-- Settings & Language -->
+    <string name="settings_title">సెట్టింగ్‌లు</string>
+    <string name="settings_section_language">భాష (Language)</string>
+    <string name="settings_language_label">యాప్ భాష</string>
+    <string name="settings_language_desc">హాజరీ కార్డు యాప్ కోసం మీకు కావలసిన ప్రాంతీయ భాషను ఎంచుకోండి.</string>
+    <string name="settings_select_language_dialog_title">యాప్ భాషను ఎంచుకోండి</string>
+    <string name="settings_active_account">యాక్టివ్ ఖాతా</string>
+    <string name="settings_online_badge">ఆన్‌లైన్</string>
+    <string name="settings_logout_btn">లాగౌట్</string>
+    <string name="settings_company_profile">కంపెనీ ప్రొఫైల్</string>
+    <string name="settings_company_desc">ఈ పేరు మరియు చిరునామా మస్టర్ కార్డు PDF పై ముద్రించబడతాయి.</string>
+    <string name="settings_owner_name_label">యజమాని / మేనేజర్ పేరు</string>
+    <string name="settings_company_name_label">కంపెనీ / వ్యాపార పేరు</string>
+    <string name="settings_company_address_label">కంపెనీ / ఫ్యాక్టరీ చిరునామా</string>
+    <string name="settings_company_phone_label">సంప్రదింపు ఫోన్ నంబర్</string>
+    <string name="settings_save_profile_btn">ప్రొఫైల్ సేవ్ చేయండి</string>
+    <string name="settings_profile_saved_toast">కంపెనీ మరియు ప్రొఫైల్ వివరాలు భద్రపరచబడ్డాయి!</string>
+    <string name="settings_data_mgmt_title">డేటా నిర్వహణ</string>
+    <string name="settings_local_db_title">లోకల్ డేటాబేస్ (100% ఆఫ్‌లైన్)</string>
+    <string name="settings_local_db_desc">అన్ని హాజరు మరియు వేతన రికార్డులు మీ పరికరంలో సురక్షితంగా నిల్వ చేయబడతాయి.</string>
+    <string name="settings_reload_sample_btn">నమూనా కార్మికుల డేటాను మళ్లీ లోడ్ చేయండి</string>
+    <string name="settings_admob_title">గూగుల్ యాడ్‌మాబ్ కేంద్రం</string>
+    <string name="settings_admob_desc">బ్యానర్, ఇంటర్‌స్టీషియల్ మరియు రివార్డెడ్ ప్రకటనలు</string>
+    <string name="settings_test_mode">టెస్ట్ మోడ్ ●</string>
+    <string name="settings_prod_mode">ప్రొడక్షన్ మోడ్ ●</string>
+    <string name="settings_vip_active">🌟 విఐపి యాడ్-ఫ్రీ పాస్: యాక్టివ్</string>
+    <string name="settings_vip_pass">👑 విఐపి పాస్ (24 గంటలు యాడ్-ఫ్రీ)</string>
+    <string name="settings_vip_desc">24 గంటలు ప్రకటనలు లేకుండా ఉపయోగించడానికి వీడియో చూడండి</string>
+    <string name="settings_vip_remaining">గంటలు మిగిలి ఉన్నాయి • ప్రకటనలు దాచబడ్డాయి</string>
+    <string name="settings_watch_btn">చూడండి</string>
+    <string name="settings_banner_preview_title">1. లైవ్ బ్యానర్ ప్రకటన మునుజూపు:</string>
+    <string name="settings_ad_test_controls_title">2. ప్రకటన పరీక్ష నియంత్రణలు:</string>
+    <string name="settings_interstitial_btn">ఇంటర్‌స్టీషియల్ ప్రకటన</string>
+    <string name="settings_rewarded_btn">రివార్డెడ్ ప్రకటన</string>
+    <string name="settings_app_info_title">యాప్ సమాచారం</string>
+    <string name="settings_reset_dialog_title">నమూనా డేటాను రీసెట్ చేయాలా?</string>
+    <string name="settings_reset_dialog_desc">ఇది నమూనా కార్మికులు మరియు డెమో హాజరు డేటాను తిరిగి లోడ్ చేస్తుంది.</string>
+    <string name="settings_reset_confirm_btn">అవును, మళ్లీ లోడ్ చేయి</string>
+    <string name="settings_logout_dialog_title">లాగౌట్ ధృవీకరించాలా?</string>
+    <string name="settings_logout_dialog_desc">మీరు మీ ఇమెయిల్ మరియు పాస్‌వర్డ్‌తో మళ్లీ సైన్ ఇన్ చేయాల్సి ఉంటుంది.</string>
+    <string name="settings_logout_confirm_btn">అవును, లాగౌట్ చేయి</string>
+    <string name="settings_sample_data_loaded_toast">నమూనా డేటా విజయవంతంగా లోడ్ చేయబడింది!</string>
+    <string name="settings_logged_out_toast">మీరు లాగౌట్ అయ్యారు.</string>
+    <string name="settings_language_changed_toast">భాష %1$s కు మార్చబడింది</string>
+
+    <!-- Login & Authentication Screen -->
+    <string name="login_welcome_back">తిరిగి స్వాగతం</string>
+    <string name="login_sign_in_sub">సిబ్బంది హాజరు మరియు పేరోల్ నిర్వహణకు సైన్ ఇన్ చేయండి</string>
+    <string name="login_create_account_title">వ్యాపార ఖాతాను సృష్టించండి</string>
+    <string name="login_register_sub">ఈరోజే హాజరు, వేతనాలు మరియు అడ్వాన్సుల ట్రాకింగ్ ప్రారంభించండి</string>
+    <string name="login_tab_sign_in">సైన్ ఇన్</string>
+    <string name="login_tab_register">ఖాతా తెరవండి</string>
+    <string name="login_sign_in_tab">సైన్ ఇన్</string>
+    <string name="login_create_account_tab">ఖాతా తెరవండి</string>
+    <string name="login_email_label">ఇమెయిల్ చిరునామా *</string>
+    <string name="login_email_placeholder">owner@gmail.com</string>
+    <string name="login_password_label">పాస్‌వర్డ్ *</string>
+    <string name="login_password_placeholder">కనీసం 6 అక్షరాలు</string>
+    <string name="login_confirm_password_label">పాస్‌వర్డ్ నిర్ధారించండి *</string>
+    <string name="login_confirm_password_placeholder">పాస్‌వర్డ్ మళ్లీ నమోదు చేయండి</string>
+    <string name="login_owner_name_label">యజమాని / మేనేజర్ పేరు</string>
+    <string name="login_owner_name_placeholder">ఉదా: రాజేష్ శర్మ</string>
+    <string name="login_business_name_label">కంపెనీ / ఫ్యాక్టరీ పేరు</string>
+    <string name="login_business_name_placeholder">ఉదా: శ్రీ గణేష్ టెక్స్‌టైల్స్</string>
+    <string name="login_company_name_label">కంపెనీ / ఫ్యాక్టరీ పేరు</string>
+    <string name="login_forgot_password_btn">పాస్‌వర్డ్ మర్చిపోయారా?</string>
+    <string name="login_btn_sign_in">సైన్ ఇన్ చేయండి</string>
+    <string name="login_btn_create_account">ఖాతా సృష్టించి సైన్ ఇన్ చేయండి</string>
+    <string name="login_sign_in_btn">సైన్ ఇన్ చేయండి</string>
+    <string name="login_create_account_btn">ఖాతా సృష్టించి సైన్ ఇన్ చేయండి</string>
+    <string name="login_signing_in">సైన్ ఇన్ అవుతోంది...</string>
+    <string name="login_creating_account">ఖాతా సృష్టించబడుతోంది...</string>
+    <string name="login_or_divider">లేదా</string>
+    <string name="login_continue_whatsapp">వాట్సాప్‌తో కొనసాగించండి</string>
+    <string name="login_whatsapp_btn">వాట్సాప్‌తో కొనసాగించండి</string>
+    <string name="login_badge_soon">కాన్ఫిగ్ అవసరం</string>
+    <string name="login_whatsapp_title">వాట్సాప్ ప్రామాణీకరణ</string>
+    <string name="login_whatsapp_phone_label">వాట్సాప్ మొబైల్ నంబర్</string>
+    <string name="login_whatsapp_phone_placeholder">+91 9876543210</string>
+    <string name="login_whatsapp_code_label">వాట్సాప్ ధృవీకరణ కోడ్</string>
+    <string name="login_whatsapp_code_placeholder">6 అంకెల కోడ్ నమోదు చేయండి</string>
+    <string name="login_whatsapp_send_code_btn">వాట్సాప్ కోడ్ పంపండి</string>
+    <string name="login_whatsapp_verify_btn">ధృవీకరించి సైన్ ఇన్ చేయండి</string>
+    <string name="login_whatsapp_not_configured_title">వాట్సాప్ ప్రామాణీకరణ సెటప్ అవసరం</string>
+    <string name="login_whatsapp_not_configured_desc">అధికారిక వాట్సాప్ లాగిన్ కోసం మెటా క్లౌడ్ API మరియు ఫైర్‌బేస్ అడ్మిన్ SDKతో సురక్షితమైన బ్యాకెండ్ సర్వర్ అవసరం.</string>
+    <string name="login_whatsapp_backend_url_label">బ్యాకెండ్ గేట్‌వే URL (ఐచ్ఛికం):</string>
+    <string name="login_whatsapp_backend_url_placeholder">https://your-backend-server.run.app</string>
+    <string name="login_whatsapp_save_backend_btn">సేవ్ చేసి కనెక్ట్ చేయండి</string>
+    <string name="login_whatsapp_cancel_btn">రద్దు చేయండి</string>
+    <string name="login_reset_dialog_title">పాస్‌వర్డ్ రీసెట్ చేయండి</string>
+    <string name="login_reset_dialog_desc">పాస్‌వర్డ్ రీసెట్ లింక్ అందుకోవడానికి మీ నమోదిత ఇమెయిల్‌ను నమోదు చేయండి.</string>
+    <string name="login_reset_send_btn">రీసెట్ లింక్ పంపండి</string>
+    <string name="login_bottom_info">🔒 100% సురక్షిత క్లౌడ్ సింక్ మరియు లోకల్ ఆఫ్‌లైన్ నిల్వ</string>
+</resources>

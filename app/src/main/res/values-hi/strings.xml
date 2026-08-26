@@ -1,0 +1,284 @@
+<resources>
+    <!-- App & Brand -->
+    <string name="app_name">हाजिरी कार्ड</string>
+    <string name="app_tagline">हाजिरी, वेतन और एडवांस खाता प्रबंधन</string>
+    <string name="app_version_label">हाजिरी कार्ड v1.0.0</string>
+    <string name="app_description">मजदूर/कर्मचारी हाजिरी, एडवांस और डिजिटल मस्टर कार्ड प्रबंधन ऐप।</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">सुरक्षित करें</string>
+    <string name="common_cancel">रद्द करें</string>
+    <string name="common_delete">हटाएं</string>
+    <string name="common_edit">बदलें</string>
+    <string name="common_close">बंद करें</string>
+    <string name="common_back">वापस</string>
+    <string name="common_confirm">पुष्टि करें</string>
+    <string name="common_yes">हाँ</string>
+    <string name="common_no">नहीं</string>
+    <string name="common_ok">ठीक है</string>
+    <string name="common_search">खोजें</string>
+    <string name="common_filter">फ़िल्टर</string>
+    <string name="common_all">सभी</string>
+    <string name="common_total">कुल</string>
+    <string name="common_date">दिनांक</string>
+    <string name="common_time">समय</string>
+    <string name="common_status">स्थिति</string>
+    <string name="common_amount">राशि</string>
+    <string name="common_days">दिन</string>
+    <string name="common_hours">घंटे</string>
+    <string name="common_notes">विवरण / टिप्पणी</string>
+    <string name="common_actions">कार्रवाई</string>
+    <string name="common_rupee_symbol">₹</string>
+
+    <!-- Navigation Titles & Tabs -->
+    <string name="nav_home">होम</string>
+    <string name="nav_workers">मजदूर</string>
+    <string name="nav_attendance">हाजिरी</string>
+    <string name="nav_muster">मस्टर</string>
+    <string name="nav_salary">वेतन</string>
+    <string name="nav_advance">एडवांस</string>
+    <string name="nav_reports">रिपोर्ट्स</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <string name="title_home">हाजिरी कार्ड</string>
+    <string name="title_workers">मजदूरों की सूची</string>
+    <string name="title_attendance">दैनिक हाजिरी</string>
+    <string name="title_muster">डिजिटल मस्टर कार्ड</string>
+    <string name="title_advance">एडवांस खाता</string>
+    <string name="title_salary">वेतन गणना शीट</string>
+    <string name="title_reports">मासिक रिपोर्ट्स</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="title_add_worker">मजदूर जोड़ें</string>
+    <string name="title_edit_worker">मजदूर विवरण बदलें</string>
+
+    <!-- Home / Dashboard -->
+    <string name="home_mark_all_present">आज सभी को उपस्थित करें</string>
+    <string name="home_monthly_overview">मासिक सारांश</string>
+    <string name="home_stat_workers">मजदूर</string>
+    <string name="home_stat_present">उपस्थित</string>
+    <string name="home_stat_absent">अनुपस्थित</string>
+    <string name="home_stat_advance">कुल एडवांस</string>
+    <string name="home_stat_net_payable">शुद्ध देय वेतन</string>
+    <string name="home_stat_total_active">कुल सक्रिय</string>
+    <string name="home_stat_today">आज</string>
+    <string name="home_stat_this_month">इस महीने</string>
+    <string name="home_stat_pending_balance">बकाया भुगतान</string>
+    <string name="home_quick_menu">त्वरित मेनू</string>
+    <string name="home_worker_muster_cards">मजदूर मस्टर कार्ड</string>
+    <string name="home_view_all">सभी देखें</string>
+    <string name="home_no_workers_registered">अभी तक कोई मजदूर पंजीकृत नहीं है</string>
+    <string name="home_add_worker_cta">मजदूर जोड़ें</string>
+    <string name="home_present_prefix">उपस्थित:</string>
+    <string name="home_adv_prefix">एडवांस:</string>
+    <string name="home_net_wage_prefix">शुद्ध वेतन:</string>
+
+    <!-- Quick Menu Items -->
+    <string name="menu_add_worker_title">मजदूर जोड़ें</string>
+    <string name="menu_add_worker_desc">नया कर्मचारी पंजीकृत करें</string>
+    <string name="menu_all_workers_title">सभी मजदूर</string>
+    <string name="menu_all_workers_desc">स्टाफ देखें और प्रबंधित करें</string>
+    <string name="menu_daily_att_title">दैनिक हाजिरी</string>
+    <string name="menu_daily_att_desc">आज की हाजिरी दर्ज करें</string>
+    <string name="menu_muster_card_title">मस्टर कार्ड</string>
+    <string name="menu_muster_card_desc">मासिक कार्ड और हस्ताक्षर</string>
+    <string name="menu_advance_title">एडवांस खाता</string>
+    <string name="menu_advance_desc">उधार और एडवांस दर्ज करें</string>
+    <string name="menu_salary_title">वेतन गणना</string>
+    <string name="menu_salary_desc">मासिक वेतन का हिसाब</string>
+    <string name="menu_reports_title">रिपोर्ट्स व PDF</string>
+    <string name="menu_reports_desc">शीट डाउनलोड व प्रिंट करें</string>
+    <string name="menu_settings_title">सेटिंग्स</string>
+    <string name="menu_settings_desc">भाषा, प्रोफ़ाइल व बैकअप</string>
+
+    <!-- Attendance Screen -->
+    <string name="att_status_present">उपस्थित</string>
+    <string name="att_status_absent">अनुपस्थित</string>
+    <string name="att_status_half_day">आधा दिन</string>
+    <string name="att_status_overtime">ओवरटाइम</string>
+    <string name="att_status_holiday">छुट्टी</string>
+    <string name="att_btn_present">उपस्थित (P)</string>
+    <string name="att_btn_absent">अनुपस्थित (A)</string>
+    <string name="att_btn_half_day">आधा दिन (HD)</string>
+    <string name="att_btn_overtime">ओवरटाइम (OT)</string>
+    <string name="att_btn_holiday">छुट्टी (H)</string>
+    <string name="att_select_date">दिनांक चुनें</string>
+    <string name="att_mark_all_present_btn">सभी को उपस्थित करें</string>
+    <string name="att_total_workers_count">कुल स्टाफ</string>
+    <string name="att_present_count">उपस्थित</string>
+    <string name="att_absent_count">अनुपस्थित</string>
+    <string name="att_half_day_count">आधा दिन</string>
+    <string name="att_overtime_count">ओवरटाइम</string>
+    <string name="att_holiday_count">छुट्टी</string>
+    <string name="att_overtime_hours_hint">OT घंटे</string>
+    <string name="att_notes_hint">आज के लिए टिप्पणी दर्ज करें</string>
+    <string name="att_save_success_toast">हाजिरी सफलतापूर्वक सुरक्षित हो गई!</string>
+    <string name="att_no_workers_msg">कोई मजदूर नहीं मिला। कृपया पहले मजदूर जोड़ें।</string>
+
+    <!-- Worker Management -->
+    <string name="worker_search_hint">नाम, आईडी या मोबाइल नंबर से खोजें...</string>
+    <string name="worker_add_new_btn">नया मजदूर जोड़ें</string>
+    <string name="worker_name_label">पूरा नाम *</string>
+    <string name="worker_id_label">मजदूर आईडी / कोड</string>
+    <string name="worker_phone_label">मोबाइल नंबर</string>
+    <string name="worker_job_label">पद / काम का प्रकार</string>
+    <string name="worker_wage_type_label">वेतन का प्रकार</string>
+    <string name="worker_wage_daily">दैनिक मजदूरी (प्रति दिन)</string>
+    <string name="worker_wage_monthly">मासिक निश्चित वेतन</string>
+    <string name="worker_wage_hourly">प्रति घंटा मजदूरी</string>
+    <string name="worker_wage_rate_label">मजदूरी / दर राशि (₹) *</string>
+    <string name="worker_ot_rate_label">ओवरटाइम दर प्रति घंटा (₹)</string>
+    <string name="worker_joining_date_label">शामिल होने की तिथि</string>
+    <string name="worker_address_label">पता</string>
+    <string name="worker_save_btn">मजदूर सुरक्षित करें</string>
+    <string name="worker_update_btn">विवरण अपडेट करें</string>
+    <string name="worker_delete_btn">मजदूर हटाएं</string>
+    <string name="worker_delete_title">मजदूर हटाएं?</string>
+    <string name="worker_delete_msg">क्या आप वाकई इस मजदूर को हटाना चाहते हैं? उनकी सभी हाजिरी और एडवांस रिकॉर्ड भी हटा दिए जाएंगे।</string>
+    <string name="worker_saved_toast">मजदूर का विवरण सुरक्षित हो गया!</string>
+    <string name="worker_deleted_toast">मजदूर हटा दिया गया।</string>
+    <string name="worker_no_records">सूची में कोई मजदूर नहीं मिला।</string>
+
+    <!-- Muster Card & Reports -->
+    <string name="muster_select_worker_hint">डिजिटल मस्टर कार्ड देखने के लिए मजदूर चुनें</string>
+    <string name="muster_card_header">मासिक मस्टर रोल एवं हाजिरी कार्ड</string>
+    <string name="muster_working_days">कुल कार्य दिवस</string>
+    <string name="muster_present_days">उपस्थित दिन</string>
+    <string name="muster_absent_days">अनुपस्थित दिन</string>
+    <string name="muster_half_days">आधे दिन</string>
+    <string name="muster_holidays">छुट्टियां / ऑफ</string>
+    <string name="muster_ot_hours">कुल ओवरटाइम घंटे</string>
+    <string name="muster_total_earned">कुल अर्जित वेतन</string>
+    <string name="muster_advance_paid">काटा गया एडवांस</string>
+    <string name="muster_net_payable">शुद्ध देय बकाया</string>
+    <string name="muster_worker_sign">मजदूर के हस्ताक्षर / अंगूठा</string>
+    <string name="muster_owner_sign">प्रबंधक / मालिक हस्ताक्षर</string>
+    <string name="muster_export_pdf_btn">PDF मस्टर कार्ड डाउनलोड करें</string>
+    <string name="muster_share_whatsapp_btn">व्हाट्सएप पर शेयर करें</string>
+    <string name="muster_downloading_pdf">मस्टर कार्ड PDF तैयार हो रहा है...</string>
+
+    <!-- Advance Ledger -->
+    <string name="advance_title">एडवांस एवं लोन खाता</string>
+    <string name="advance_add_btn">एडवांस जोड़ें</string>
+    <string name="advance_record_dialog_title">दिया गया एडवांस दर्ज करें</string>
+    <string name="advance_select_worker">मजदूर चुनें *</string>
+    <string name="advance_amount_label">एडवांस राशि (₹) *</string>
+    <string name="advance_date_label">भुगतान दिनांक</string>
+    <string name="advance_payment_mode">भुगतान माध्यम (नकद/UPI/बैंक)</string>
+    <string name="advance_notes_label">उद्देश्य / टिप्पणी</string>
+    <string name="advance_history_title">इस महीने का एडवांस इतिहास</string>
+    <string name="advance_no_records">इस महीने कोई एडवांस रिकॉर्ड दर्ज नहीं है।</string>
+    <string name="advance_delete_title">एडवांस प्रविष्टि हटाएं?</string>
+    <string name="advance_delete_msg">क्या आप वाकई इस एडवांस रिकॉर्ड को हटाना चाहते हैं?</string>
+    <string name="advance_saved_toast">एडवांस रिकॉर्ड सफलतापूर्वक सुरक्षित हो गया!</string>
+    <string name="advance_deleted_toast">एडवांस रिकॉर्ड हटा दिया गया।</string>
+
+    <!-- Salary Calculation -->
+    <string name="salary_title">वेतन गणना एवं निपटान</string>
+    <string name="salary_total_payout">कुल शुद्ध भुगतान</string>
+    <string name="salary_total_advances">कुल एडवांस कटौती</string>
+    <string name="salary_total_gross">कुल सकल मजदूरी</string>
+    <string name="salary_settle_btn">भुगतान संपन्न चिह्नित करें</string>
+    <string name="salary_download_excel">एक्सेल शीट डाउनलोड करें</string>
+    <string name="salary_download_pdf">PDF शीट डाउनलोड करें</string>
+
+    <!-- Reports -->
+    <string name="reports_title">मासिक रिपोर्ट्स और विश्लेषण</string>
+    <string name="reports_monthly_attendance">मासिक हाजिरी मस्टर रिपोर्ट</string>
+    <string name="reports_wage_register">मजदूरी एवं भुगतान रजिस्टर</string>
+    <string name="reports_advance_ledger">मजदूर एडवांस खाता</string>
+    <string name="reports_export_all_pdf">संपूर्ण मासिक PDF डाउनलोड करें</string>
+
+    <!-- Settings & Language -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_section_language">भाषा (Language)</string>
+    <string name="settings_language_label">ऐप की भाषा</string>
+    <string name="settings_language_desc">हाजिरी कार्ड ऐप के लिए अपनी पसंदीदा भाषा चुनें।</string>
+    <string name="settings_select_language_dialog_title">ऐप की भाषा चुनें</string>
+    <string name="settings_active_account">सक्रिय खाता</string>
+    <string name="settings_online_badge">ऑनलाइन</string>
+    <string name="settings_logout_btn">लॉगआउट</string>
+    <string name="settings_company_profile">कंपनी प्रोफ़ाइल</string>
+    <string name="settings_company_desc">यह नाम और पता मस्टर कार्ड PDF हेडर पर मुद्रित होगा।</string>
+    <string name="settings_owner_name_label">मालिक / प्रबंधक का नाम</string>
+    <string name="settings_company_name_label">कंपनी / फर्म का नाम</string>
+    <string name="settings_company_address_label">कंपनी / फैक्ट्री का पता</string>
+    <string name="settings_company_phone_label">संपर्क फोन नंबर</string>
+    <string name="settings_save_profile_btn">प्रोफ़ाइल सुरक्षित करें</string>
+    <string name="settings_profile_saved_toast">कंपनी और प्रोफ़ाइल विवरण सुरक्षित हो गए!</string>
+    <string name="settings_data_mgmt_title">डेटा प्रबंधन</string>
+    <string name="settings_local_db_title">स्थानीय डेटाबेस (100% ऑफलाइन)</string>
+    <string name="settings_local_db_desc">सभी हाजिरी और वेतन रिकॉर्ड आपके डिवाइस पर सुरक्षित रूप से संग्रहीत हैं।</string>
+    <string name="settings_reload_sample_btn">नमूना मजदूर डेटा पुनः लोड करें</string>
+    <string name="settings_admob_title">गूगल एडमॉब केंद्र</string>
+    <string name="settings_admob_desc">अनुकूली बैनर, इंटरस्टीशियल एवं रिवार्डेड विज्ञापन</string>
+    <string name="settings_test_mode">टेस्ट मोड ●</string>
+    <string name="settings_prod_mode">प्रोडक्शन मोड ●</string>
+    <string name="settings_vip_active">🌟 वीआईपी विज्ञापन-मुक्त पास: सक्रिय</string>
+    <string name="settings_vip_pass">👑 वीआईपी पास (24 घंटे विज्ञापन-मुक्त)</string>
+    <string name="settings_vip_desc">24 घंटे विज्ञापन-मुक्त उपयोग के लिए वीडियो देखें</string>
+    <string name="settings_vip_remaining">घंटे शेष • सभी विज्ञापन छिपे हैं</string>
+    <string name="settings_watch_btn">देखें</string>
+    <string name="settings_banner_preview_title">1. लाइव बैनर विज्ञापन पूर्वावलोकन:</string>
+    <string name="settings_ad_test_controls_title">2. विज्ञापन परीक्षण नियंत्रण:</string>
+    <string name="settings_interstitial_btn">इंटरस्टीशियल विज्ञापन</string>
+    <string name="settings_rewarded_btn">रिवार्डेड विज्ञापन</string>
+    <string name="settings_app_info_title">ऐप जानकारी</string>
+    <string name="settings_reset_dialog_title">नमूना डेटा रीसेट करें?</string>
+    <string name="settings_reset_dialog_desc">यह नमूना मजदूरों और डेमो हाजिरी डेटा को फिर से लोड करेगा।</string>
+    <string name="settings_reset_confirm_btn">हाँ, पुनः लोड करें</string>
+    <string name="settings_logout_dialog_title">लॉगआउट की पुष्टि करें?</string>
+    <string name="settings_logout_dialog_desc">आपको अपने ईमेल और पासवर्ड से दोबारा साइन इन करना होगा।</string>
+    <string name="settings_logout_confirm_btn">हाँ, लॉगआउट करें</string>
+    <string name="settings_sample_data_loaded_toast">नमूना डेटा सफलतापूर्वक लोड हो गया!</string>
+    <string name="settings_logged_out_toast">आप सफलतापूर्वक लॉगआउट हो गए हैं।</string>
+    <string name="settings_language_changed_toast">भाषा बदलकर %1$s कर दी गई है</string>
+
+    <!-- Login & Authentication Screen -->
+    <string name="login_welcome_back">वापसी पर स्वागत है</string>
+    <string name="login_sign_in_sub">कर्मचारी हाजिरी और पेरोल प्रबंधित करने के लिए साइन इन करें</string>
+    <string name="login_create_account_title">व्यावसायिक खाता बनाएं</string>
+    <string name="login_register_sub">आज ही हाजिरी, मजदूरी और एडवांस का हिसाब शुरू करें</string>
+    <string name="login_tab_sign_in">साइन इन</string>
+    <string name="login_tab_register">खाता बनाएं</string>
+    <string name="login_sign_in_tab">साइन इन</string>
+    <string name="login_create_account_tab">खाता बनाएं</string>
+    <string name="login_email_label">ईमेल पता *</string>
+    <string name="login_email_placeholder">owner@gmail.com</string>
+    <string name="login_password_label">पासवर्ड *</string>
+    <string name="login_password_placeholder">कम से कम 6 अक्षर</string>
+    <string name="login_confirm_password_label">पासवर्ड की पुष्टि करें *</string>
+    <string name="login_confirm_password_placeholder">अपना पासवर्ड पुनः दर्ज करें</string>
+    <string name="login_owner_name_label">मालिक / प्रबंधक का नाम</string>
+    <string name="login_owner_name_placeholder">जैसे: राजेश शर्मा</string>
+    <string name="login_business_name_label">कंपनी / फैक्ट्री का नाम</string>
+    <string name="login_business_name_placeholder">जैसे: श्री गणेश टेक्सटाइल्स</string>
+    <string name="login_company_name_label">कंपनी / फैक्ट्री का नाम</string>
+    <string name="login_forgot_password_btn">पासवर्ड भूल गए?</string>
+    <string name="login_btn_sign_in">साइन इन करें</string>
+    <string name="login_btn_create_account">खाता बनाएं और साइन इन करें</string>
+    <string name="login_sign_in_btn">साइन इन करें</string>
+    <string name="login_create_account_btn">खाता बनाएं और साइन इन करें</string>
+    <string name="login_signing_in">साइन इन हो रहा है...</string>
+    <string name="login_creating_account">खाता बनाया जा रहा है...</string>
+    <string name="login_or_divider">या</string>
+    <string name="login_continue_whatsapp">व्हाट्सएप से जारी रखें</string>
+    <string name="login_whatsapp_btn">व्हाट्सएप से जारी रखें</string>
+    <string name="login_badge_soon">कॉन्फ़िग आवश्यक</string>
+    <string name="login_whatsapp_title">व्हाट्सएप प्रमाणीकरण</string>
+    <string name="login_whatsapp_phone_label">व्हाट्सएप मोबाइल नंबर</string>
+    <string name="login_whatsapp_phone_placeholder">+91 9876543210</string>
+    <string name="login_whatsapp_code_label">व्हाट्सएप सत्यापन कोड</string>
+    <string name="login_whatsapp_code_placeholder">६-अंकों का कोड दर्ज करें</string>
+    <string name="login_whatsapp_send_code_btn">व्हाट्सएप कोड भेजें</string>
+    <string name="login_whatsapp_verify_btn">सत्यापित करें और साइन इन करें</string>
+    <string name="login_whatsapp_not_configured_title">व्हाट्सएप प्रमाणीकरण सेटअप आवश्यक</string>
+    <string name="login_whatsapp_not_configured_desc">आधिकारिक व्हाट्सएप लॉगिन के लिए मेटा व्हाट्सएप बिजनेस क्लाउड एपीआई और फायरबेस एडमिन एसडीके के साथ एक सुरक्षित बैकएंड सर्वर की आवश्यकता होती है।</string>
+    <string name="login_whatsapp_backend_url_label">बैकएंड गेटवे एंडपॉइंट (वैकल्पिक):</string>
+    <string name="login_whatsapp_backend_url_placeholder">https://your-backend-server.run.app</string>
+    <string name="login_whatsapp_save_backend_btn">बैकएंड सहेजें और कनेक्ट करें</string>
+    <string name="login_whatsapp_cancel_btn">रद्द करें</string>
+    <string name="login_reset_dialog_title">पासवर्ड रीसेट करें</string>
+    <string name="login_reset_dialog_desc">पासवर्ड रीसेट लिंक प्राप्त करने के लिए अपना पंजीकृत ईमेल पता दर्ज करें।</string>
+    <string name="login_reset_send_btn">रीसेट लिंक भेजें</string>
+    <string name="login_bottom_info">🔒 100% सुरक्षित क्लाउड सिंक और स्थानीय ऑफलाइन स्टोरेज</string>
+</resources>

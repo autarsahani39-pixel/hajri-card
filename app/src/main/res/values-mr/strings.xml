@@ -1,0 +1,284 @@
+<resources>
+    <!-- App & Brand -->
+    <string name="app_name">हाजिरी कार्ड</string>
+    <string name="app_tagline">हाजिरी, पगार आणि उचल (ॲडव्हान्स) खाते व्यवस्थापन</string>
+    <string name="app_version_label">हाजिरी कार्ड v1.0.0</string>
+    <string name="app_description">कामगार/कर्मचारी उपस्थिती, उचल आणि डिजिटल मस्टर कार्ड व्यवस्थापन ॲप.</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">जतन करा</string>
+    <string name="common_cancel">रद्द करा</string>
+    <string name="common_delete">हटवा</string>
+    <string name="common_edit">बदला</string>
+    <string name="common_close">बंद करा</string>
+    <string name="common_back">मागे</string>
+    <string name="common_confirm">नक्की करा</string>
+    <string name="common_yes">होय</string>
+    <string name="common_no">नाही</string>
+    <string name="common_ok">ठीक आहे</string>
+    <string name="common_search">शोधा</string>
+    <string name="common_filter">फिल्टर</string>
+    <string name="common_all">सर्व</string>
+    <string name="common_total">एकूण</string>
+    <string name="common_date">तारीख</string>
+    <string name="common_time">वेळ</string>
+    <string name="common_status">स्थिती</string>
+    <string name="common_amount">रक्कम</string>
+    <string name="common_days">दिवस</string>
+    <string name="common_hours">तास</string>
+    <string name="common_notes">नोंद / शेरा</string>
+    <string name="common_actions">कृती</string>
+    <string name="common_rupee_symbol">₹</string>
+
+    <!-- Navigation Titles & Tabs -->
+    <string name="nav_home">मुख्यपृष्ठ</string>
+    <string name="nav_workers">कामगार</string>
+    <string name="nav_attendance">हाजिरी</string>
+    <string name="nav_muster">मस्टर</string>
+    <string name="nav_salary">पगार</string>
+    <string name="nav_advance">उचल</string>
+    <string name="nav_reports">अहवाल</string>
+    <string name="nav_settings">सेटिंग्ज</string>
+
+    <string name="title_home">हाजिरी कार्ड</string>
+    <string name="title_workers">कामगारांची यादी</string>
+    <string name="title_attendance">दैनिक हाजिरी</string>
+    <string name="title_muster">डिजिटल मस्टर कार्ड</string>
+    <string name="title_advance">उचल (ॲडव्हान्स) वही</string>
+    <string name="title_salary">पगार पत्रक</string>
+    <string name="title_reports">मासिक अहवाल</string>
+    <string name="title_settings">सेटिंग्ज</string>
+    <string name="title_add_worker">कामगार जोडा</string>
+    <string name="title_edit_worker">कामगार माहिती बदला</string>
+
+    <!-- Home / Dashboard -->
+    <string name="home_mark_all_present">आज सर्वांची उपस्थिती नोंदवा</string>
+    <string name="home_monthly_overview">मासिक आढावा</string>
+    <string name="home_stat_workers">कामगार</string>
+    <string name="home_stat_present">उपस्थित</string>
+    <string name="home_stat_absent">अनुपस्थित</string>
+    <string name="home_stat_advance">एकूण उचल</string>
+    <string name="home_stat_net_payable">देय पगार</string>
+    <string name="home_stat_total_active">एकूण सक्रिय</string>
+    <string name="home_stat_today">आज</string>
+    <string name="home_stat_this_month">चालू महिना</string>
+    <string name="home_stat_pending_balance">शिल्लक रक्कम</string>
+    <string name="home_quick_menu">जलद मेनू</string>
+    <string name="home_worker_muster_cards">कामगार मस्टर कार्डे</string>
+    <string name="home_view_all">सर्व पहा</string>
+    <string name="home_no_workers_registered">अद्याप कोणताही कामगार नोंदवला नाही</string>
+    <string name="home_add_worker_cta">कामगार जोडा</string>
+    <string name="home_present_prefix">उपस्थित:</string>
+    <string name="home_adv_prefix">उचल:</string>
+    <string name="home_net_wage_prefix">निव्वळ पगार:</string>
+
+    <!-- Quick Menu Items -->
+    <string name="menu_add_worker_title">कामगार जोडा</string>
+    <string name="menu_add_worker_desc">नवीन कामगार नोंदणी</string>
+    <string name="menu_all_workers_title">सर्व कामगार</string>
+    <string name="menu_all_workers_desc">कर्मचारी पहा व व्यवस्थापित करा</string>
+    <string name="menu_daily_att_title">दैनिक हाजिरी</string>
+    <string name="menu_daily_att_desc">आजची उपस्थिती नोंदवा</string>
+    <string name="menu_muster_card_title">मस्टर कार्ड</string>
+    <string name="menu_muster_card_desc">मासिक कार्ड आणि स्वाक्षरी</string>
+    <string name="menu_advance_title">उचल (ॲडव्हान्स) वही</string>
+    <string name="menu_advance_desc">उचल व कर्ज नोंदी</string>
+    <string name="menu_salary_title">पगार हिशोब</string>
+    <string name="menu_salary_desc">मासिक पगार वाटप</string>
+    <string name="menu_reports_title">अहवाल व PDF</string>
+    <string name="menu_reports_desc">पत्रक डाउनलोड व प्रिंट करा</string>
+    <string name="menu_settings_title">सेटिंग्ज</string>
+    <string name="menu_settings_desc">भाषा, प्रोफाईल व बॅकअप</string>
+
+    <!-- Attendance Screen -->
+    <string name="att_status_present">उपस्थित</string>
+    <string name="att_status_absent">अनुपस्थित</string>
+    <string name="att_status_half_day">अर्धा दिवस</string>
+    <string name="att_status_overtime">ओव्हरटाईम</string>
+    <string name="att_status_holiday">सुट्टी</string>
+    <string name="att_btn_present">उपस्थित (P)</string>
+    <string name="att_btn_absent">अनुपस्थित (A)</string>
+    <string name="att_btn_half_day">अर्धा दिवस (HD)</string>
+    <string name="att_btn_overtime">ओव्हरटाईम (OT)</string>
+    <string name="att_btn_holiday">सुट्टी (H)</string>
+    <string name="att_select_date">तारीख निवडा</string>
+    <string name="att_mark_all_present_btn">सर्वांना उपस्थित करा</string>
+    <string name="att_total_workers_count">एकूण कर्मचारी</string>
+    <string name="att_present_count">उपस्थित</string>
+    <string name="att_absent_count">अनुपस्थित</string>
+    <string name="att_half_day_count">अर्धा दिवस</string>
+    <string name="att_overtime_count">ओव्हरटाईम</string>
+    <string name="att_holiday_count">सुट्टी</string>
+    <string name="att_overtime_hours_hint">OT तास</string>
+    <string name="att_notes_hint">आजची नोंद / शेरा लिहा</string>
+    <string name="att_save_success_toast">हाजिरी यशस्वीरीत्या जतन झाली!</string>
+    <string name="att_no_workers_msg">कोणताही कामगार सापडला नाही. कृपया प्रथम कामगार जोडा.</string>
+
+    <!-- Worker Management -->
+    <string name="worker_search_hint">नाव, आयडी किंवा मोबाईल नंबरने शोधा...</string>
+    <string name="worker_add_new_btn">नवीन कामगार जोडा</string>
+    <string name="worker_name_label">पूर्ण नाव *</string>
+    <string name="worker_id_label">कामगार आयडी / कोड</string>
+    <string name="worker_phone_label">मोबाईल नंबर</string>
+    <string name="worker_job_label">पद / कामाचे स्वरूप</string>
+    <string name="worker_wage_type_label">पगाराचा प्रकार</string>
+    <string name="worker_wage_daily">दैनिक हजेरी (प्रति दिवस)</string>
+    <string name="worker_wage_monthly">मासिक निश्चित पगार</string>
+    <string name="worker_wage_hourly">प्रति तास पगार</string>
+    <string name="worker_wage_rate_label">दर / पगार रक्कम (₹) *</string>
+    <string name="worker_ot_rate_label">ओव्हरटाईम दर प्रति तास (₹)</string>
+    <string name="worker_joining_date_label">कामावर रुजू होण्याची तारीख</string>
+    <string name="worker_address_label">पत्ता</string>
+    <string name="worker_save_btn">कामगार जतन करा</string>
+    <string name="worker_update_btn">माहिती अपडेट करा</string>
+    <string name="worker_delete_btn">कामगार हटवा</string>
+    <string name="worker_delete_title">कामगार हटवायचा आहे का?</string>
+    <string name="worker_delete_msg">तुम्हाला खात्री आहे का? या कामगाराच्या सर्व उपस्थिती आणि उचल नोंदी हटवल्या जातील.</string>
+    <string name="worker_saved_toast">कामगाराची माहिती जतन झाली!</string>
+    <string name="worker_deleted_toast">कामगार हटवला गेला.</string>
+    <string name="worker_no_records">यादीत कोणताही कामगार आढळला नाही.</string>
+
+    <!-- Muster Card & Reports -->
+    <string name="muster_select_worker_hint">डिजिटल मस्टर कार्ड पाहण्यासाठी कामगार निवडा</string>
+    <string name="muster_card_header">मासिक मस्टर रोल आणि उपस्थिती कार्ड</string>
+    <string name="muster_working_days">एकूण कामाचे दिवस</string>
+    <string name="muster_present_days">उपस्थित दिवस</string>
+    <string name="muster_absent_days">अनुपस्थित दिवस</string>
+    <string name="muster_half_days">अर्धे दिवस</string>
+    <string name="muster_holidays">सुट्ट्या</string>
+    <string name="muster_ot_hours">ओव्हरटाईम तास</string>
+    <string name="muster_total_earned">एकूण मिळवलेला पगार</string>
+    <string name="muster_advance_paid">वजा केलेली उचल</string>
+    <string name="muster_net_payable">निव्वळ देय पगार</string>
+    <string name="muster_worker_sign">कामगाराची स्वाक्षरी / अंगठा</string>
+    <string name="muster_owner_sign">व्यवस्थापक / मालक स्वाक्षरी</string>
+    <string name="muster_export_pdf_btn">PDF मस्टर कार्ड डाउनलोड करा</string>
+    <string name="muster_share_whatsapp_btn">व्हॉट्सॲपवर शेअर करा</string>
+    <string name="muster_downloading_pdf">मस्टर कार्ड PDF तयार होत आहे...</string>
+
+    <!-- Advance Ledger -->
+    <string name="advance_title">उचल (ॲडव्हान्स) व कर्ज वही</string>
+    <string name="advance_add_btn">उचल जोडा</string>
+    <string name="advance_record_dialog_title">दिलेली उचल नोंदवा</string>
+    <string name="advance_select_worker">कामगार निवडा *</string>
+    <string name="advance_amount_label">उचल रक्कम (₹) *</string>
+    <string name="advance_date_label">दिल्याची तारीख</string>
+    <string name="advance_payment_mode">पेमेंट प्रकार (रोख/UPI/बँक)</string>
+    <string name="advance_notes_label">कारण / शेरा</string>
+    <string name="advance_history_title">या महिन्यातील उचल नोंदी</string>
+    <string name="advance_no_records">या महिन्यात उचल नोंद उपलब्ध नाही.</string>
+    <string name="advance_delete_title">उचल नोंद हटवायची?</string>
+    <string name="advance_delete_msg">तुम्हाला ही उचल नोंद हटवायची आहे का?</string>
+    <string name="advance_saved_toast">उचल नोंद यशस्वीरीत्या जतन झाली!</string>
+    <string name="advance_deleted_toast">उचल नोंद हटवली गेली.</string>
+
+    <!-- Salary Calculation -->
+    <string name="salary_title">पगार हिशोब व वाटप</string>
+    <string name="salary_total_payout">एकूण निव्वळ देय</string>
+    <string name="salary_total_advances">एकूण वजा उचल</string>
+    <string name="salary_total_gross">एकूण एकूण पगार</string>
+    <string name="salary_settle_btn">पगार पूर्ण नोंदवा</string>
+    <string name="salary_download_excel">एक्सेल पत्रक डाउनलोड करा</string>
+    <string name="salary_download_pdf">PDF पत्रक डाउनलोड करा</string>
+
+    <!-- Reports -->
+    <string name="reports_title">मासिक अहवाल व विश्लेषण</string>
+    <string name="reports_monthly_attendance">मासिक हाजिरी मस्टर अहवाल</string>
+    <string name="reports_wage_register">पगार व देयक नोंदवही</string>
+    <string name="reports_advance_ledger">कामगार उचल वही</string>
+    <string name="reports_export_all_pdf">संपूर्ण मासिक PDF डाउनलोड करा</string>
+
+    <!-- Settings & Language -->
+    <string name="settings_title">सेटिंग्ज</string>
+    <string name="settings_section_language">भाषा (Language)</string>
+    <string name="settings_language_label">ॲपची भाषा</string>
+    <string name="settings_language_desc">हाजिरी कार्ड ॲपसाठी तुमची पसंतीची भाषा निवडा.</string>
+    <string name="settings_select_language_dialog_title">ॲपची भाषा निवडा</string>
+    <string name="settings_active_account">सक्रिय खाते</string>
+    <string name="settings_online_badge">ऑनलाइन</string>
+    <string name="settings_logout_btn">लॉगआउट</string>
+    <string name="settings_company_profile">कंपनी प्रोफाईल</string>
+    <string name="settings_company_desc">हे नाव आणि पत्ता मस्टर कार्ड PDF वर छापले जाईल.</string>
+    <string name="settings_owner_name_label">मालक / व्यवस्थापकाचे नाव</string>
+    <string name="settings_company_name_label">कंपनी / कारखान्याचे नाव</string>
+    <string name="settings_company_address_label">कंपनी / कारखान्याचा पत्ता</string>
+    <string name="settings_company_phone_label">संपर्क फोन नंबर</string>
+    <string name="settings_save_profile_btn">प्रोफाईल जतन करा</string>
+    <string name="settings_profile_saved_toast">कंपनी आणि प्रोफाईल माहिती जतन झाली!</string>
+    <string name="settings_data_mgmt_title">डेटा व्यवस्थापन</string>
+    <string name="settings_local_db_title">स्थानिक डेटाबेस (100% ऑफलाइन)</string>
+    <string name="settings_local_db_desc">सर्व उपस्थिती आणि पगार नोंदी आपल्या डिव्हाइसवर सुरक्षितपणे साठवल्या जातात.</string>
+    <string name="settings_reload_sample_btn">नमुना कामगार डेटा पुन्हा लोड करा</string>
+    <string name="settings_admob_title">गुगल ॲडमॉड केंद्र</string>
+    <string name="settings_admob_desc">बॅनर, इंटरस्टीशियल आणि रिवार्डेड जाहिराती</string>
+    <string name="settings_test_mode">टेस्ट मोड ●</string>
+    <string name="settings_prod_mode">प्रॉडक्शन मोड ●</string>
+    <string name="settings_vip_active">🌟 व्हीआयपी जाहिरात-मुक्त पास: सक्रिय</string>
+    <string name="settings_vip_pass">👑 व्हीआयपी पास (24 तास जाहिरात-मुक्त)</string>
+    <string name="settings_vip_desc">24 तास जाहिरात-मुक्त वापरासाठी व्हिडिओ पहा</string>
+    <string name="settings_vip_remaining">तास शिल्लक • सर्व जाहिराती लपवल्या आहेत</string>
+    <string name="settings_watch_btn">पहा</string>
+    <string name="settings_banner_preview_title">1. लाइव्ह बॅनर जाहिरात पूर्वावलोकन:</string>
+    <string name="settings_ad_test_controls_title">2. जाहिरात चाचणी नियंत्रणे:</string>
+    <string name="settings_interstitial_btn">इंटरस्टीशियल जाहिरात</string>
+    <string name="settings_rewarded_btn">रिवार्डेड जाहिरात</string>
+    <string name="settings_app_info_title">ॲप माहिती</string>
+    <string name="settings_reset_dialog_title">नमुना डेटा रीसेट करायचा?</string>
+    <string name="settings_reset_dialog_desc">हे नमुना कामगार आणि डेमो हाजिरी डेटा पुन्हा लोड करेल.</string>
+    <string name="settings_reset_confirm_btn">होय, रीलोड करा</string>
+    <string name="settings_logout_dialog_title">लॉगआउटची पुष्टी करा?</string>
+    <string name="settings_logout_dialog_desc">तुम्हाला तुमच्या ईमेल आणि पासवर्डने पुन्हा लॉगिन करावे लागेल.</string>
+    <string name="settings_logout_confirm_btn">होय, लॉगआउट करा</string>
+    <string name="settings_sample_data_loaded_toast">नमुना डेटा यशस्वीरीत्या लोड झाला!</string>
+    <string name="settings_logged_out_toast">आपण लॉगआउट झाला आहात.</string>
+    <string name="settings_language_changed_toast">भाषा बदलून %1$s करण्यात आली आहे</string>
+
+    <!-- Login & Authentication Screen -->
+    <string name="login_welcome_back">पुन्हा स्वागत आहे</string>
+    <string name="login_sign_in_sub">कर्मचारी उपस्थिती आणि पगार व्यवस्थापनासाठी साइन इन करा</string>
+    <string name="login_create_account_title">व्यावसायिक खाते तयार करा</string>
+    <string name="login_register_sub">आजच हाजिरी, पगार आणि उचल हिशोब सुरू करा</string>
+    <string name="login_tab_sign_in">साइन इन</string>
+    <string name="login_tab_register">खाते तयार करा</string>
+    <string name="login_sign_in_tab">साइन इन</string>
+    <string name="login_create_account_tab">खाते तयार करा</string>
+    <string name="login_email_label">ईमेल पत्ता *</string>
+    <string name="login_email_placeholder">owner@gmail.com</string>
+    <string name="login_password_label">पासवर्ड *</string>
+    <string name="login_password_placeholder">किमान ६ अक्षरे</string>
+    <string name="login_confirm_password_label">पासवर्डची पुष्टी करा *</string>
+    <string name="login_confirm_password_placeholder">आपला पासवर्ड पुन्हा टाका</string>
+    <string name="login_owner_name_label">मालक / व्यवस्थापकाचे नाव</string>
+    <string name="login_owner_name_placeholder">उदा. राजेश शर्मा</string>
+    <string name="login_business_name_label">कंपनी / कारखान्याचे नाव</string>
+    <string name="login_business_name_placeholder">उदा. श्री गणेश टेक्स्टाईल्स</string>
+    <string name="login_company_name_label">कंपनी / कारखान्याचे नाव</string>
+    <string name="login_forgot_password_btn">पासवर्ड विसरलात?</string>
+    <string name="login_btn_sign_in">साइन इन करा</string>
+    <string name="login_btn_create_account">खाते तयार करा आणि साइन इन करा</string>
+    <string name="login_sign_in_btn">साइन इन करा</string>
+    <string name="login_create_account_btn">खाते तयार करा आणि साइन इन करा</string>
+    <string name="login_signing_in">साइन इन होत आहे...</string>
+    <string name="login_creating_account">खाते तयार होत आहे...</string>
+    <string name="login_or_divider">किंवा</string>
+    <string name="login_continue_whatsapp">व्हॉट्सॲपसह सुरू ठेवा</string>
+    <string name="login_whatsapp_btn">व्हॉट्सॲपसह सुरू ठेवा</string>
+    <string name="login_badge_soon">कॉन्फिगरेशन आवश्यक</string>
+    <string name="login_whatsapp_title">व्हॉट्सॲप प्रमाणीकरण</string>
+    <string name="login_whatsapp_phone_label">व्हॉट्सॲप मोबाईल क्रमांक</string>
+    <string name="login_whatsapp_phone_placeholder">+91 9876543210</string>
+    <string name="login_whatsapp_code_label">व्हॉट्सॲप पडताळणी कोड</string>
+    <string name="login_whatsapp_code_placeholder">६ अंकी कोड टाका</string>
+    <string name="login_whatsapp_send_code_btn">व्हॉट्सॲप कोड पाठवा</string>
+    <string name="login_whatsapp_verify_btn">पडताळणी करा आणि साइन इन करा</string>
+    <string name="login_whatsapp_not_configured_title">व्हॉट्सॲप प्रमाणीकरण सेटअप आवश्यक</string>
+    <string name="login_whatsapp_not_configured_desc">अधिकृत व्हॉट्सॲप लॉगिनसाठी मेटा बिझनेस क्लाउड एपीआय आणि फायरबेस ॲडमिन एसडीकेसह सुरक्षित बॅकएंड सर्व्हर आवश्यक आहे.</string>
+    <string name="login_whatsapp_backend_url_label">बॅकएंड गेटवे एंडपॉइंट (पर्यायी):</string>
+    <string name="login_whatsapp_backend_url_placeholder">https://your-backend-server.run.app</string>
+    <string name="login_whatsapp_save_backend_btn">बॅकएंड जतन करा आणि कनेक्ट करा</string>
+    <string name="login_whatsapp_cancel_btn">रद्द करा</string>
+    <string name="login_reset_dialog_title">पासवर्ड रीसेट करा</string>
+    <string name="login_reset_dialog_desc">पासवर्ड रीसेट लिंक मिळवण्यासाठी आपला नोंदणीकृत ईमेल प्रविष्ट करा.</string>
+    <string name="login_reset_send_btn">रीसेट लिंक पाठवा</string>
+    <string name="login_bottom_info">🔒 100% सुरक्षित क्लाउड सिंक आणि स्थानिक ऑफलाइन स्टोरेज</string>
+</resources>

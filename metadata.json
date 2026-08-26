@@ -1,0 +1,6 @@
+{
+  "name": "Hajri Card",
+  "description": "Mobile Hajri Card & Muster Roll management app for worker attendance, daily wages, advance, salary, and digital signature records with PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

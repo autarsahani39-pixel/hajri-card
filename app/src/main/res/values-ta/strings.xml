@@ -1,0 +1,284 @@
+<resources>
+    <!-- App & Brand -->
+    <string name="app_name">ஹாஜிரி கார்டு</string>
+    <string name="app_tagline">வருகை, சம்பளம் மற்றும் அட்வான்ஸ் கணக்கு மேலாண்மை</string>
+    <string name="app_version_label">ஹாஜிரி கார்டு v1.0.0</string>
+    <string name="app_description">பணியாளர் வருகை, அட்வான்ஸ் மற்றும் டிஜிட்டல் மஸ்டர் கார்டு மேலாண்மை செயலி.</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">சேமி</string>
+    <string name="common_cancel">ரத்துசெய்</string>
+    <string name="common_delete">நீக்கு</string>
+    <string name="common_edit">திருத்து</string>
+    <string name="common_close">மூடு</string>
+    <string name="common_back">பின்செல்</string>
+    <string name="common_confirm">உறுதிசெய்</string>
+    <string name="common_yes">ஆம்</string>
+    <string name="common_no">இல்லை</string>
+    <string name="common_ok">சரி</string>
+    <string name="common_search">தேடு</string>
+    <string name="common_filter">வடிகட்டு</string>
+    <string name="common_all">அனைத்தும்</string>
+    <string name="common_total">மொத்தம்</string>
+    <string name="common_date">தேதி</string>
+    <string name="common_time">நேரம்</string>
+    <string name="common_status">நிலை</string>
+    <string name="common_amount">தொகை</string>
+    <string name="common_days">நாட்கள்</string>
+    <string name="common_hours">மணிநேரம்</string>
+    <string name="common_notes">குறிப்பு / விவரம்</string>
+    <string name="common_actions">செயல்கள்</string>
+    <string name="common_rupee_symbol">₹</string>
+
+    <!-- Navigation Titles & Tabs -->
+    <string name="nav_home">முகப்பு</string>
+    <string name="nav_workers">பணியாளர்கள்</string>
+    <string name="nav_attendance">வருகை</string>
+    <string name="nav_muster">மஸ்டர்</string>
+    <string name="nav_salary">சம்பளம்</string>
+    <string name="nav_advance">அட்வான்ஸ்</string>
+    <string name="nav_reports">அறிக்கைகள்</string>
+    <string name="nav_settings">அமைப்புகள்</string>
+
+    <string name="title_home">ஹாஜிரி கார்டு</string>
+    <string name="title_workers">பணியாளர்கள் பட்டியல்</string>
+    <string name="title_attendance">தினசரி வருகை</string>
+    <string name="title_muster">டிஜிட்டல் மஸ்டர் கார்டு</string>
+    <string name="title_advance">அட்வான்ஸ் கணக்கு</string>
+    <string name="title_salary">சம்பள கணக்கீடு</string>
+    <string name="title_reports">மாதாந்திர அறிக்கைகள்</string>
+    <string name="title_settings">அமைப்புகள்</string>
+    <string name="title_add_worker">பணியாளர் சேர்</string>
+    <string name="title_edit_worker">பணியாளர் விவரம் மாற்று</string>
+
+    <!-- Home / Dashboard -->
+    <string name="home_mark_all_present">இன்று அனைவரையும் வரவாக்கு</string>
+    <string name="home_monthly_overview">மாதாந்திர கண்ணோட்டம்</string>
+    <string name="home_stat_workers">பணியாளர்கள்</string>
+    <string name="home_stat_present">வந்தவர்கள்</string>
+    <string name="home_stat_absent">வராதவர்கள்</string>
+    <string name="home_stat_advance">மொத்த அட்வான்ஸ்</string>
+    <string name="home_stat_net_payable">வழங்கவேண்டிய சம்பளம்</string>
+    <string name="home_stat_total_active">செயலில் உள்ளவர்கள்</string>
+    <string name="home_stat_today">இன்று</string>
+    <string name="home_stat_this_month">இந்த மாதம்</string>
+    <string name="home_stat_pending_balance">மீதமுள்ள பாக்கி</string>
+    <string name="home_quick_menu">விரைவு மெனு</string>
+    <string name="home_worker_muster_cards">பணியாளர் மஸ்டர் கார்டுகள்</string>
+    <string name="home_view_all">அனைத்தையும் பார்</string>
+    <string name="home_no_workers_registered">இதுவரை பணியாளர்கள் பதிவு செய்யப்படவில்லை</string>
+    <string name="home_add_worker_cta">பணியாளர் சேர்</string>
+    <string name="home_present_prefix">வருகை:</string>
+    <string name="home_adv_prefix">அட்வான்ஸ்:</string>
+    <string name="home_net_wage_prefix">நிகர சம்பளம்:</string>
+
+    <!-- Quick Menu Items -->
+    <string name="menu_add_worker_title">பணியாளர் சேர்</string>
+    <string name="menu_add_worker_desc">புதிய பணியாளர் பதிவு</string>
+    <string name="menu_all_workers_title">அனைத்து பணியாளர்கள்</string>
+    <string name="menu_all_workers_desc">பணியாளர்களை மேலாண்மை செய்</string>
+    <string name="menu_daily_att_title">தினசரி வருகை</string>
+    <string name="menu_daily_att_desc">இன்றைய வருகையை பதிவு செய்</string>
+    <string name="menu_muster_card_title">மஸ்டர் கார்டு</string>
+    <string name="menu_muster_card_desc">மாதாந்திர கார்டு &amp; கையொப்பம்</string>
+    <string name="menu_advance_title">அட்வான்ஸ் கணக்கு</string>
+    <string name="menu_advance_desc">அட்வான்ஸ் மற்றும் கடன்கள்</string>
+    <string name="menu_salary_title">சம்பள கணக்கீடு</string>
+    <string name="menu_salary_desc">மாதாந்திர சம்பள பட்டுவாடா</string>
+    <string name="menu_reports_title">அறிக்கைகள் &amp; PDF</string>
+    <string name="menu_reports_desc">பதிவிறக்கம் &amp; அச்சிடுக</string>
+    <string name="menu_settings_title">அமைப்புகள்</string>
+    <string name="menu_settings_desc">மொழி, சுயவிவரம் &amp; காப்புநகல்</string>
+
+    <!-- Attendance Screen -->
+    <string name="att_status_present">வருகை</string>
+    <string name="att_status_absent">விடுப்பு</string>
+    <string name="att_status_half_day">அரை நாள்</string>
+    <string name="att_status_overtime">கூடுதல் நேரம்</string>
+    <string name="att_status_holiday">விடுமுறை</string>
+    <string name="att_btn_present">வருகை (P)</string>
+    <string name="att_btn_absent">விடுப்பு (A)</string>
+    <string name="att_btn_half_day">அரை நாள் (HD)</string>
+    <string name="att_btn_overtime">கூடுதல் நேரம் (OT)</string>
+    <string name="att_btn_holiday">விடுமுறை (H)</string>
+    <string name="att_select_date">தேதியை தேர்வு செய்க</string>
+    <string name="att_mark_all_present_btn">அனைவருக்கும் வருகை அளி</string>
+    <string name="att_total_workers_count">மொத்த ஊழியர்கள்</string>
+    <string name="att_present_count">வந்தவர்கள்</string>
+    <string name="att_absent_count">வராதவர்கள்</string>
+    <string name="att_half_day_count">அரை நாள்</string>
+    <string name="att_overtime_count">கூடுதல் நேரம்</string>
+    <string name="att_holiday_count">விடுமுறை</string>
+    <string name="att_overtime_hours_hint">OT மணிநேரம்</string>
+    <string name="att_notes_hint">இன்றைய குறிப்பை சேர்க்கவும்</string>
+    <string name="att_save_success_toast">வருகை வெற்றிகரமாக சேமிக்கப்பட்டது!</string>
+    <string name="att_no_workers_msg">பணியாளர்கள் யாரும் இல்லை. முதலில் பணியாளர்களை சேர்க்கவும்.</string>
+
+    <!-- Worker Management -->
+    <string name="worker_search_hint">பெயர், ஐடி அல்லது போன் எண் கொண்டு தேடவும்...</string>
+    <string name="worker_add_new_btn">புதிய பணியாளர் சேர்</string>
+    <string name="worker_name_label">முழு பெயர் *</string>
+    <string name="worker_id_label">பணியாளர் ஐடி / குறியீடு</string>
+    <string name="worker_phone_label">மொபைல் எண்</string>
+    <string name="worker_job_label">பதவி / வேலை விவரம்</string>
+    <string name="worker_wage_type_label">சம்பள முறை</string>
+    <string name="worker_wage_daily">தினக்கூலி (ஒரு நாளைக்கு)</string>
+    <string name="worker_wage_monthly">மாதாந்திர நிலையான சம்பளம்</string>
+    <string name="worker_wage_hourly">மணிநேர கூலி</string>
+    <string name="worker_wage_rate_label">சம்பளம் / கூலி தொகை (₹) *</string>
+    <string name="worker_ot_rate_label">கூடுதல் நேர விகிதம் (₹/மணி)</string>
+    <string name="worker_joining_date_label">வேலையில் சேர்ந்த தேதி</string>
+    <string name="worker_address_label">முகவரி</string>
+    <string name="worker_save_btn">பணியாளரை சேமி</string>
+    <string name="worker_update_btn">விவரங்களை மாற்று</string>
+    <string name="worker_delete_btn">பணியாளரை நீக்கு</string>
+    <string name="worker_delete_title">பணியாளரை நீக்கவா?</string>
+    <string name="worker_delete_msg">நிச்சயமாக இந்த பணியாளரை நீக்க விரும்புகிறீர்களா? இவரது அனைத்து வருகை மற்றும் அட்வான்ஸ் பதிவுகளும் நீக்கப்படும்.</string>
+    <string name="worker_saved_toast">பணியாளர் விவரம் சேமிக்கப்பட்டது!</string>
+    <string name="worker_deleted_toast">பணியாளர் நீக்கப்பட்டார்.</string>
+    <string name="worker_no_records">பட்டியலில் பணியாளர்கள் இல்லை.</string>
+
+    <!-- Muster Card & Reports -->
+    <string name="muster_select_worker_hint">டிஜிட்டல் மஸ்டர் கார்டு பார்க்க பணியாளரை தேர்வு செய்யவும்</string>
+    <string name="muster_card_header">மாதாந்திர மஸ்டர் ரோல் மற்றும் வருகை அட்டை</string>
+    <string name="muster_working_days">மொத்த வேலை நாட்கள்</string>
+    <string name="muster_present_days">வந்த நாட்கள்</string>
+    <string name="muster_absent_days">வராத நாட்கள்</string>
+    <string name="muster_half_days">அரை நாட்கள்</string>
+    <string name="muster_holidays">விடுமுறைகள்</string>
+    <string name="muster_ot_hours">கூடுதல் வேலை மணிநேரம்</string>
+    <string name="muster_total_earned">ஈட்டிய மொத்த சம்பளம்</string>
+    <string name="muster_advance_paid">பிடித்தம் செய்த அட்வான்ஸ்</string>
+    <string name="muster_net_payable">வழங்கவேண்டிய நிகர தொகை</string>
+    <string name="muster_worker_sign">பணியாளர் கையொப்பம் / கட்டைவிரல் ரேகை</string>
+    <string name="muster_owner_sign">மேலாளர் / உரிமையாளர் கையொப்பம்</string>
+    <string name="muster_export_pdf_btn">PDF மஸ்டர் கார்டு பதிவிறக்கு</string>
+    <string name="muster_share_whatsapp_btn">வாட்ஸ்அப்பில் பகிர்</string>
+    <string name="muster_downloading_pdf">மஸ்டர் கார்டு PDF தயாராகிறது...</string>
+
+    <!-- Advance Ledger -->
+    <string name="advance_title">அட்வான்ஸ் மற்றும் கடன் கணக்கு</string>
+    <string name="advance_add_btn">அட்வான்ஸ் சேர்</string>
+    <string name="advance_record_dialog_title">வழங்கிய அட்வான்ஸை பதிவு செய்</string>
+    <string name="advance_select_worker">பணியாளரை தேர்வு செய் *</string>
+    <string name="advance_amount_label">அட்வான்ஸ் தொகை (₹) *</string>
+    <string name="advance_date_label">வழங்கிய தேதி</string>
+    <string name="advance_payment_mode">பணம் செலுத்தும் முறை (ரொக்கம்/UPI/வங்கி)</string>
+    <string name="advance_notes_label">காரணம் / குறிப்பு</string>
+    <string name="advance_history_title">இந்த மாத அட்வான்ஸ் வரலாறு</string>
+    <string name="advance_no_records">இந்த மாதம் அட்வான்ஸ் பதிவுகள் இல்லை.</string>
+    <string name="advance_delete_title">அட்வான்ஸ் பதிவை நீக்கவா?</string>
+    <string name="advance_delete_msg">இந்த அட்வான்ஸ் பதிவை நிச்சயமாக நீக்க விரும்புகிறீர்களா?</string>
+    <string name="advance_saved_toast">அட்வான்ஸ் பதிவு வெற்றிகரமாக சேமிக்கப்பட்டது!</string>
+    <string name="advance_deleted_toast">அட்வான்ஸ் பதிவு நீக்கப்பட்டது.</string>
+
+    <!-- Salary Calculation -->
+    <string name="salary_title">சம்பள கணக்கீடு &amp; தீர்வு</string>
+    <string name="salary_total_payout">மொத்த நிகர வழங்கல்</string>
+    <string name="salary_total_advances">மொத்த அட்வான்ஸ் பிடித்தம்</string>
+    <string name="salary_total_gross">மொத்த சம்பளம்</string>
+    <string name="salary_settle_btn">சம்பளம் வழங்கப்பட்டதாக குறிக்கவும்</string>
+    <string name="salary_download_excel">எக்செல் தாள் பதிவிறக்கு</string>
+    <string name="salary_download_pdf">PDF தாள் பதிவிறக்கு</string>
+
+    <!-- Reports -->
+    <string name="reports_title">மாதாந்திர அறிக்கைகள் &amp; ஆய்வு</string>
+    <string name="reports_monthly_attendance">மாதாந்திர வருகை மஸ்டர் அறிக்கை</string>
+    <string name="reports_wage_register">சம்பளம் &amp; கொடுப்பனவு பதிவேடு</string>
+    <string name="reports_advance_ledger">பணியாளர் அட்வான்ஸ் கணக்கு</string>
+    <string name="reports_export_all_pdf">முழு மாதாந்திர PDF பதிவிறக்கு</string>
+
+    <!-- Settings & Language -->
+    <string name="settings_title">அமைப்புகள்</string>
+    <string name="settings_section_language">மொழி (Language)</string>
+    <string name="settings_language_label">செயலியின் மொழி</string>
+    <string name="settings_language_desc">ஹாஜிரி கார்டு செயலியில் உங்கள் விருப்ப மொழியைத் தேர்வுசெய்யவும்.</string>
+    <string name="settings_select_language_dialog_title">செயலியின் மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="settings_active_account">செயலில் உள்ள கணக்கு</string>
+    <string name="settings_online_badge">ஆன்லைன்</string>
+    <string name="settings_logout_btn">வெளியேறு</string>
+    <string name="settings_company_profile">நிறுவனத்தின் விவரம்</string>
+    <string name="settings_company_desc">இந்த பெயர் மற்றும் முகவரி மஸ்டர் கார்டு PDF-ல் அச்சிடப்படும்.</string>
+    <string name="settings_owner_name_label">உரிமையாளர் / மேலாளர் பெயர்</string>
+    <string name="settings_company_name_label">நிறுவனம் / வணிகப் பெயர்</string>
+    <string name="settings_company_address_label">நிறுவனம் / தொழிற்சாலை முகவரி</string>
+    <string name="settings_company_phone_label">தொடர்பு தொலைபேசி எண்</string>
+    <string name="settings_save_profile_btn">சுயவிவரத்தை சேமி</string>
+    <string name="settings_profile_saved_toast">நிறுவன விவரங்கள் சேமிக்கப்பட்டன!</string>
+    <string name="settings_data_mgmt_title">தரவு மேலாண்மை</string>
+    <string name="settings_local_db_title">உள்ளக தரவுத்தளம் (100% ஆஃப்லைன்)</string>
+    <string name="settings_local_db_desc">அனைத்து வருகை மற்றும் சம்பள பதிவுகள் உங்கள் சாதனத்தில் பாதுகாப்பாக சேமிக்கப்படுகின்றன.</string>
+    <string name="settings_reload_sample_btn">மாதிரி பணியாளர் தரவை மீண்டும் ஏற்று</string>
+    <string name="settings_admob_title">கூகுள் ஆட்மாப் மையம்</string>
+    <string name="settings_admob_desc">பேனர், இன்டர்ஸ்டீஷியல் மற்றும் வெகுமதி விளம்பரங்கள்</string>
+    <string name="settings_test_mode">சோதனை முறை ●</string>
+    <string name="settings_prod_mode">நேரடி முறை ●</string>
+    <string name="settings_vip_active">🌟 விஐபி விளம்பரமற்ற பாஸ்: செயலில் உள்ளது</string>
+    <string name="settings_vip_pass">👑 விஐபி பாஸ் (24 மணிநேரம் விளம்பரமில்லை)</string>
+    <string name="settings_vip_desc">24 மணிநேரம் விளம்பரமில்லா பயன்பாட்டிற்கு வீடியோ பார்க்கவும்</string>
+    <string name="settings_vip_remaining">மணிநேரம் மீதம் உள்ளது • விளம்பரங்கள் மறைக்கப்பட்டுள்ளன</string>
+    <string name="settings_watch_btn">பார்</string>
+    <string name="settings_banner_preview_title">1. நேரடி பேனர் விளம்பர முன்னோட்டம்:</string>
+    <string name="settings_ad_test_controls_title">2. விளம்பர சோதனை கட்டுப்பாடுகள்:</string>
+    <string name="settings_interstitial_btn">இன்டர்ஸ்டீஷியல் விளம்பரம்</string>
+    <string name="settings_rewarded_btn">வெகுமதி விளம்பரம்</string>
+    <string name="settings_app_info_title">செயலி தகவல்</string>
+    <string name="settings_reset_dialog_title">மாதிரி தரவை மீட்டமைக்கவா?</string>
+    <string name="settings_reset_dialog_desc">இது மாதிரி பணியாளர்கள் மற்றும் மாதிரி வருகை தரவை மீண்டும் ஏற்றும்.</string>
+    <string name="settings_reset_confirm_btn">ஆம், மீண்டும் ஏற்று</string>
+    <string name="settings_logout_dialog_title">வெளியேறுவதை உறுதிப்படுத்தவா?</string>
+    <string name="settings_logout_dialog_desc">உங்கள் மின்னஞ்சல் மற்றும் கடவுச்சொல் மூலம் மீண்டும் உள்நுழைய வேண்டும்.</string>
+    <string name="settings_logout_confirm_btn">ஆம், வெளியேறு</string>
+    <string name="settings_sample_data_loaded_toast">மாதிரி தரவு வெற்றிகரமாக ஏற்றப்பட்டது!</string>
+    <string name="settings_logged_out_toast">வெற்றிகரமாக வெளியேறிவிட்டீர்கள்.</string>
+    <string name="settings_language_changed_toast">மொழி %1$s ஆக மாற்றப்பட்டது</string>
+
+    <!-- Login & Authentication Screen -->
+    <string name="login_welcome_back">மீண்டும் வருக</string>
+    <string name="login_sign_in_sub">பணியாளர் வருகை மற்றும் சம்பளத்தை நிர்வகிக்க உள்நுழையவும்</string>
+    <string name="login_create_account_title">வணிகக் கணக்கை உருவாக்கவும்</string>
+    <string name="login_register_sub">இன்றே வருகை, கூலி மற்றும் அட்வான்ஸ் கணக்குகளைத் தொடங்குங்கள்</string>
+    <string name="login_tab_sign_in">உள்நுழைக</string>
+    <string name="login_tab_register">கணக்கு உருவாக்கு</string>
+    <string name="login_sign_in_tab">உள்நுழைக</string>
+    <string name="login_create_account_tab">கணக்கு உருவாக்கு</string>
+    <string name="login_email_label">மின்னஞ்சல் முகவரி *</string>
+    <string name="login_email_placeholder">owner@gmail.com</string>
+    <string name="login_password_label">கடவுச்சொல் *</string>
+    <string name="login_password_placeholder">குறைந்தது 6 எழுத்துக்கள்</string>
+    <string name="login_confirm_password_label">கடவுச்சொல்லை உறுதிசெய்க *</string>
+    <string name="login_confirm_password_placeholder">கடவுச்சொல்லை மீண்டும் உள்ளிடவும்</string>
+    <string name="login_owner_name_label">உரிமையாளர் / மேலாளர் பெயர்</string>
+    <string name="login_owner_name_placeholder">எ.கா. ராஜேஷ் சர்மா</string>
+    <string name="login_business_name_label">நிறுவனம் / தொழிற்சாலை பெயர்</string>
+    <string name="login_business_name_placeholder">எ.கா. ஸ்ரீ கணேஷ் டெக்ஸ்டைல்ஸ்</string>
+    <string name="login_company_name_label">நிறுவனம் / தொழிற்சாலை பெயர்</string>
+    <string name="login_forgot_password_btn">கடவுச்சொல் மறந்துவிட்டதா?</string>
+    <string name="login_btn_sign_in">உள்நுழையவும்</string>
+    <string name="login_btn_create_account">கணக்கை உருவாக்கி உள்நுழையவும்</string>
+    <string name="login_sign_in_btn">உள்நுழையவும்</string>
+    <string name="login_create_account_btn">கணக்கை உருவாக்கி உள்நுழையவும்</string>
+    <string name="login_signing_in">உள்நுழைகிறது...</string>
+    <string name="login_creating_account">கணக்கு உருவாக்கப்படுகிறது...</string>
+    <string name="login_or_divider">அல்லது</string>
+    <string name="login_continue_whatsapp">வாட்ஸ்அப் மூலம் தொடரவும்</string>
+    <string name="login_whatsapp_btn">வாட்ஸ்அப் மூலம் தொடரவும்</string>
+    <string name="login_badge_soon">அமைப்பு தேவை</string>
+    <string name="login_whatsapp_title">வாட்ஸ்அப் அங்கீகாரம்</string>
+    <string name="login_whatsapp_phone_label">வாட்ஸ்அப் மொபைல் எண்</string>
+    <string name="login_whatsapp_phone_placeholder">+91 9876543210</string>
+    <string name="login_whatsapp_code_label">வாட்ஸ்அப் சரிபார்ப்புக் குறியீடு</string>
+    <string name="login_whatsapp_code_placeholder">6 இலக்கக் குறியீட்டை உள்ளிடவும்</string>
+    <string name="login_whatsapp_send_code_btn">வாட்ஸ்அப் குறியீட்டை அனுப்புக</string>
+    <string name="login_whatsapp_verify_btn">சரிபார்த்து உள்நுழையவும்</string>
+    <string name="login_whatsapp_not_configured_title">வாட்ஸ்அப் அங்கீகார அமைப்பு தேவை</string>
+    <string name="login_whatsapp_not_configured_desc">அதிகாரப்பூர்வ வாட்ஸ்அப் உள்நுழைவுக்கு மெட்டா கிளவுட் ஏபிஐ மற்றும் ஃபயர்பேஸ் நிர்வாக எஸ்டிகே கொண்ட பாதுகாப்பான பின்தள சேவையகம் தேவைப்படுகிறது.</string>
+    <string name="login_whatsapp_backend_url_label">பின்தள நுழைவாயில் முகவரி (விருப்பமானது):</string>
+    <string name="login_whatsapp_backend_url_placeholder">https://your-backend-server.run.app</string>
+    <string name="login_whatsapp_save_backend_btn">சேமித்து இணைக்கவும்</string>
+    <string name="login_whatsapp_cancel_btn">ரத்துசெய்</string>
+    <string name="login_reset_dialog_title">கடவுச்சொல்லை மீட்டமைக்கவும்</string>
+    <string name="login_reset_dialog_desc">கடவுச்சொல் மீட்டமைப்பு இணைப்பைப் பெற உங்கள் பதிவுசெய்த மின்னஞ்சலை உள்ளிடவும்.</string>
+    <string name="login_reset_send_btn">இணைப்பை அனுப்பவும்</string>
+    <string name="login_bottom_info">🔒 100% பாதுகாப்பான கிளவுட் ஒத்திசைவு மற்றும் உள்ளக ஆஃப்லைன் சேமிப்பகம்</string>
+</resources>

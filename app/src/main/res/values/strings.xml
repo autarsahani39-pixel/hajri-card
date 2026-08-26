@@ -1,0 +1,284 @@
+<resources>
+    <!-- App & Brand -->
+    <string name="app_name">Hajri Card</string>
+    <string name="app_tagline">Attendance, Wage &amp; Advance Ledger Management</string>
+    <string name="app_version_label">Hajri Card v1.0.0</string>
+    <string name="app_description">Worker attendance, advance, and digital muster card management app.</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">Save</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_close">Close</string>
+    <string name="common_back">Back</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_ok">OK</string>
+    <string name="common_search">Search</string>
+    <string name="common_filter">Filter</string>
+    <string name="common_all">All</string>
+    <string name="common_total">Total</string>
+    <string name="common_date">Date</string>
+    <string name="common_time">Time</string>
+    <string name="common_status">Status</string>
+    <string name="common_amount">Amount</string>
+    <string name="common_days">days</string>
+    <string name="common_hours">hours</string>
+    <string name="common_notes">Notes / Remarks</string>
+    <string name="common_actions">Actions</string>
+    <string name="common_rupee_symbol">₹</string>
+
+    <!-- Navigation Titles & Tabs -->
+    <string name="nav_home">Home</string>
+    <string name="nav_workers">Workers</string>
+    <string name="nav_attendance">Attendance</string>
+    <string name="nav_muster">Muster</string>
+    <string name="nav_salary">Salary</string>
+    <string name="nav_advance">Advance</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="title_home">Hajri Card</string>
+    <string name="title_workers">Workers List</string>
+    <string name="title_attendance">Daily Attendance</string>
+    <string name="title_muster">Digital Muster Card</string>
+    <string name="title_advance">Advance Ledger</string>
+    <string name="title_salary">Salary Sheet</string>
+    <string name="title_reports">Monthly Reports</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_add_worker">Add Worker</string>
+    <string name="title_edit_worker">Edit Worker</string>
+
+    <!-- Home / Dashboard -->
+    <string name="home_mark_all_present">Mark All Present Today</string>
+    <string name="home_monthly_overview">Monthly Overview</string>
+    <string name="home_stat_workers">Workers</string>
+    <string name="home_stat_present">Present</string>
+    <string name="home_stat_absent">Absent</string>
+    <string name="home_stat_advance">Total Advance</string>
+    <string name="home_stat_net_payable">Net Payable</string>
+    <string name="home_stat_total_active">Total Active</string>
+    <string name="home_stat_today">Today</string>
+    <string name="home_stat_this_month">This Month</string>
+    <string name="home_stat_pending_balance">Pending Balance</string>
+    <string name="home_quick_menu">Quick Menu</string>
+    <string name="home_worker_muster_cards">Worker Muster Cards</string>
+    <string name="home_view_all">View All</string>
+    <string name="home_no_workers_registered">No workers registered yet</string>
+    <string name="home_add_worker_cta">Add Worker</string>
+    <string name="home_present_prefix">Present:</string>
+    <string name="home_adv_prefix">Adv:</string>
+    <string name="home_net_wage_prefix">Net Wage:</string>
+
+    <!-- Quick Menu Items -->
+    <string name="menu_add_worker_title">Add Worker</string>
+    <string name="menu_add_worker_desc">Register new employee</string>
+    <string name="menu_all_workers_title">All Workers</string>
+    <string name="menu_all_workers_desc">View &amp; manage staff</string>
+    <string name="menu_daily_att_title">Daily Attendance</string>
+    <string name="menu_daily_att_desc">Mark today\'s status</string>
+    <string name="menu_muster_card_title">Muster Card</string>
+    <string name="menu_muster_card_desc">Monthly card &amp; sign</string>
+    <string name="menu_advance_title">Advance Ledger</string>
+    <string name="menu_advance_desc">Record advances &amp; loans</string>
+    <string name="menu_salary_title">Salary Calculation</string>
+    <string name="menu_salary_desc">Monthly wage settlement</string>
+    <string name="menu_reports_title">Reports &amp; PDF</string>
+    <string name="menu_reports_desc">Export &amp; print sheets</string>
+    <string name="menu_settings_title">Settings</string>
+    <string name="menu_settings_desc">Language, profile &amp; backup</string>
+
+    <!-- Attendance Screen -->
+    <string name="att_status_present">Present</string>
+    <string name="att_status_absent">Absent</string>
+    <string name="att_status_half_day">Half Day</string>
+    <string name="att_status_overtime">Overtime</string>
+    <string name="att_status_holiday">Holiday</string>
+    <string name="att_btn_present">Present (P)</string>
+    <string name="att_btn_absent">Absent (A)</string>
+    <string name="att_btn_half_day">Half Day (HD)</string>
+    <string name="att_btn_overtime">Overtime (OT)</string>
+    <string name="att_btn_holiday">Holiday (H)</string>
+    <string name="att_select_date">Select Date</string>
+    <string name="att_mark_all_present_btn">Mark All Present</string>
+    <string name="att_total_workers_count">Total Staff</string>
+    <string name="att_present_count">Present</string>
+    <string name="att_absent_count">Absent</string>
+    <string name="att_half_day_count">Half Day</string>
+    <string name="att_overtime_count">Overtime</string>
+    <string name="att_holiday_count">Holiday</string>
+    <string name="att_overtime_hours_hint">OT Hours</string>
+    <string name="att_notes_hint">Add remarks/notes for today</string>
+    <string name="att_save_success_toast">Attendance saved successfully!</string>
+    <string name="att_no_workers_msg">No workers found. Please add workers first.</string>
+
+    <!-- Worker Management -->
+    <string name="worker_search_hint">Search worker by name, ID, phone...</string>
+    <string name="worker_add_new_btn">Add New Worker</string>
+    <string name="worker_name_label">Full Name *</string>
+    <string name="worker_id_label">Worker ID / Code</string>
+    <string name="worker_phone_label">Mobile Number</string>
+    <string name="worker_job_label">Role / Job Title</string>
+    <string name="worker_wage_type_label">Wage Type</string>
+    <string name="worker_wage_daily">Daily Wage (Per Day)</string>
+    <string name="worker_wage_monthly">Monthly Fixed Salary</string>
+    <string name="worker_wage_hourly">Hourly Wage</string>
+    <string name="worker_wage_rate_label">Wage / Rate Amount (₹) *</string>
+    <string name="worker_ot_rate_label">Overtime Rate Per Hour (₹)</string>
+    <string name="worker_joining_date_label">Joining Date</string>
+    <string name="worker_address_label">Address</string>
+    <string name="worker_save_btn">Save Worker</string>
+    <string name="worker_update_btn">Update Worker</string>
+    <string name="worker_delete_btn">Delete Worker</string>
+    <string name="worker_delete_title">Delete Worker?</string>
+    <string name="worker_delete_msg">Are you sure you want to delete this worker? All related attendance and advance records will also be deleted.</string>
+    <string name="worker_saved_toast">Worker details saved successfully!</string>
+    <string name="worker_deleted_toast">Worker deleted.</string>
+    <string name="worker_no_records">No workers found in list.</string>
+
+    <!-- Muster Card & Reports -->
+    <string name="muster_select_worker_hint">Select a worker to view digital muster card</string>
+    <string name="muster_card_header">Monthly Muster Roll &amp; Attendance Card</string>
+    <string name="muster_working_days">Total Working Days</string>
+    <string name="muster_present_days">Present Days</string>
+    <string name="muster_absent_days">Absent Days</string>
+    <string name="muster_half_days">Half Days</string>
+    <string name="muster_holidays">Holidays / Off</string>
+    <string name="muster_ot_hours">Overtime Hours</string>
+    <string name="muster_total_earned">Gross Wages Earned</string>
+    <string name="muster_advance_paid">Advance Deducted</string>
+    <string name="muster_net_payable">Net Balance Payable</string>
+    <string name="muster_worker_sign">Worker Signature / Thumb</string>
+    <string name="muster_owner_sign">Manager Signature</string>
+    <string name="muster_export_pdf_btn">Export PDF Muster Card</string>
+    <string name="muster_share_whatsapp_btn">Share on WhatsApp</string>
+    <string name="muster_downloading_pdf">Generating Muster Card PDF...</string>
+
+    <!-- Advance Ledger -->
+    <string name="advance_title">Advance &amp; Loan Ledger</string>
+    <string name="advance_add_btn">Add Advance</string>
+    <string name="advance_record_dialog_title">Record Advance Given</string>
+    <string name="advance_select_worker">Select Worker *</string>
+    <string name="advance_amount_label">Advance Amount (₹) *</string>
+    <string name="advance_date_label">Date Given</string>
+    <string name="advance_payment_mode">Payment Mode (Cash/UPI/Bank)</string>
+    <string name="advance_notes_label">Purpose / Notes</string>
+    <string name="advance_history_title">Advance History for this Month</string>
+    <string name="advance_no_records">No advance entries recorded this month.</string>
+    <string name="advance_delete_title">Delete Advance Entry?</string>
+    <string name="advance_delete_msg">Are you sure you want to delete this advance payment?</string>
+    <string name="advance_saved_toast">Advance record saved successfully!</string>
+    <string name="advance_deleted_toast">Advance record deleted.</string>
+
+    <!-- Salary Calculation -->
+    <string name="salary_title">Salary Sheet &amp; Settlements</string>
+    <string name="salary_total_payout">Total Net Payout</string>
+    <string name="salary_total_advances">Total Advances</string>
+    <string name="salary_total_gross">Total Gross Wages</string>
+    <string name="salary_settle_btn">Mark Settled / Paid</string>
+    <string name="salary_download_excel">Download Excel Sheet</string>
+    <string name="salary_download_pdf">Download PDF Sheet</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Monthly Reports &amp; Analytics</string>
+    <string name="reports_monthly_attendance">Monthly Attendance Muster Report</string>
+    <string name="reports_wage_register">Wages &amp; Payment Register</string>
+    <string name="reports_advance_ledger">Worker Advance Ledger</string>
+    <string name="reports_export_all_pdf">Download Complete Monthly PDF</string>
+
+    <!-- Settings & Language -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_language">Language</string>
+    <string name="settings_language_label">App Language</string>
+    <string name="settings_language_desc">Select your preferred regional language for Hajri Card.</string>
+    <string name="settings_select_language_dialog_title">Choose App Language</string>
+    <string name="settings_active_account">Active Account</string>
+    <string name="settings_online_badge">ONLINE</string>
+    <string name="settings_logout_btn">Logout</string>
+    <string name="settings_company_profile">Company Profile</string>
+    <string name="settings_company_desc">This name and address will be printed on the Muster Card PDF header.</string>
+    <string name="settings_owner_name_label">Owner / Manager Name</string>
+    <string name="settings_company_name_label">Company / Business Name</string>
+    <string name="settings_company_address_label">Company / Factory Address</string>
+    <string name="settings_company_phone_label">Contact Phone Number</string>
+    <string name="settings_save_profile_btn">Save Profile</string>
+    <string name="settings_profile_saved_toast">Company and owner profile saved!</string>
+    <string name="settings_data_mgmt_title">Data Management</string>
+    <string name="settings_local_db_title">Local Database (100% Offline)</string>
+    <string name="settings_local_db_desc">All attendance and wage records are stored securely on your device.</string>
+    <string name="settings_reload_sample_btn">Reload Sample Workers Data</string>
+    <string name="settings_admob_title">Google AdMob Ads Center</string>
+    <string name="settings_admob_desc">Adaptive Banner, Interstitial &amp; Rewarded Ads</string>
+    <string name="settings_test_mode">Test Mode ●</string>
+    <string name="settings_prod_mode">Production ●</string>
+    <string name="settings_vip_active">🌟 VIP Ad-Free Pass: Active</string>
+    <string name="settings_vip_pass">👑 VIP Pass (24h Ad-Free)</string>
+    <string name="settings_vip_desc">Watch a rewarded video to get 24 hours ad-free</string>
+    <string name="settings_vip_remaining">hours remaining • All ads hidden</string>
+    <string name="settings_watch_btn">Watch</string>
+    <string name="settings_banner_preview_title">1. Banner Ad Live Preview:</string>
+    <string name="settings_ad_test_controls_title">2. Ad Test Controls:</string>
+    <string name="settings_interstitial_btn">Interstitial Ad</string>
+    <string name="settings_rewarded_btn">Rewarded Ad</string>
+    <string name="settings_app_info_title">App Information</string>
+    <string name="settings_reset_dialog_title">Reset Sample Data?</string>
+    <string name="settings_reset_dialog_desc">This will reload sample workers and demo attendance data.</string>
+    <string name="settings_reset_confirm_btn">Yes, Reload</string>
+    <string name="settings_logout_dialog_title">Confirm Logout?</string>
+    <string name="settings_logout_dialog_desc">You will need to sign in again with your email and password.</string>
+    <string name="settings_logout_confirm_btn">Yes, Logout</string>
+    <string name="settings_sample_data_loaded_toast">Sample data loaded successfully!</string>
+    <string name="settings_logged_out_toast">You have been logged out.</string>
+    <string name="settings_language_changed_toast">Language updated to %1$s</string>
+
+    <!-- Login & Authentication Screen -->
+    <string name="login_welcome_back">Welcome Back</string>
+    <string name="login_sign_in_sub">Sign in to manage your workforce attendance and payroll</string>
+    <string name="login_create_account_title">Create Business Account</string>
+    <string name="login_register_sub">Start tracking attendance, wages and advances today</string>
+    <string name="login_tab_sign_in">Sign In</string>
+    <string name="login_tab_register">Create Account</string>
+    <string name="login_sign_in_tab">Sign In</string>
+    <string name="login_create_account_tab">Create Account</string>
+    <string name="login_email_label">Email Address *</string>
+    <string name="login_email_placeholder">owner@gmail.com</string>
+    <string name="login_password_label">Password *</string>
+    <string name="login_password_placeholder">At least 6 characters</string>
+    <string name="login_confirm_password_label">Confirm Password *</string>
+    <string name="login_confirm_password_placeholder">Re-enter your password</string>
+    <string name="login_owner_name_label">Owner / Manager Name</string>
+    <string name="login_owner_name_placeholder">e.g. Rajesh Sharma</string>
+    <string name="login_business_name_label">Business / Factory Name</string>
+    <string name="login_business_name_placeholder">e.g. Shree Ganesh Textiles</string>
+    <string name="login_company_name_label">Business / Factory Name</string>
+    <string name="login_forgot_password_btn">Forgot Password?</string>
+    <string name="login_btn_sign_in">Sign In</string>
+    <string name="login_btn_create_account">Create Account &amp; Sign In</string>
+    <string name="login_sign_in_btn">Sign In</string>
+    <string name="login_create_account_btn">Create Account &amp; Sign In</string>
+    <string name="login_signing_in">Signing in...</string>
+    <string name="login_creating_account">Creating account...</string>
+    <string name="login_or_divider">OR</string>
+    <string name="login_continue_whatsapp">Continue with WhatsApp</string>
+    <string name="login_whatsapp_btn">Continue with WhatsApp</string>
+    <string name="login_badge_soon">CONFIG REQUIRED</string>
+    <string name="login_whatsapp_title">WhatsApp Authentication</string>
+    <string name="login_whatsapp_phone_label">WhatsApp Mobile Number</string>
+    <string name="login_whatsapp_phone_placeholder">+91 9876543210</string>
+    <string name="login_whatsapp_code_label">WhatsApp Verification Code</string>
+    <string name="login_whatsapp_code_placeholder">Enter 6-digit code</string>
+    <string name="login_whatsapp_send_code_btn">Send WhatsApp Code</string>
+    <string name="login_whatsapp_verify_btn">Verify &amp; Sign In</string>
+    <string name="login_whatsapp_not_configured_title">WhatsApp Authentication Setup Required</string>
+    <string name="login_whatsapp_not_configured_desc">Official WhatsApp login requires a secure backend server with Meta WhatsApp Business Cloud API and Firebase Admin SDK. Sensitive credentials and Meta App Secrets must never reside in the Android app.</string>
+    <string name="login_whatsapp_backend_url_label">Backend Gateway Endpoint (Optional):</string>
+    <string name="login_whatsapp_backend_url_placeholder">https://your-backend-server.run.app</string>
+    <string name="login_whatsapp_save_backend_btn">Save Backend &amp; Connect</string>
+    <string name="login_whatsapp_cancel_btn">Cancel</string>
+    <string name="login_reset_dialog_title">Reset Password</string>
+    <string name="login_reset_dialog_desc">Enter your registered email address to receive a secure password reset link.</string>
+    <string name="login_reset_send_btn">Send Reset Link</string>
+    <string name="login_bottom_info">🔒 100% Secure Cloud Sync &amp; Local Offline Storage</string>
+</resources>

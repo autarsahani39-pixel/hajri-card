@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="pdf_cache" path="." />
+    <cache-path name="pdf_cache_docs" path="pdf_documents" />
+    <files-path name="pdf_files" path="." />
+    <files-path name="pdf_files_docs" path="pdf_documents" />
+    <external-path name="external_files" path="." />
+    <external-cache-path name="external_cache" path="." />
+    <external-files-path name="external_pdf_files" path="." />
+</paths>
+
