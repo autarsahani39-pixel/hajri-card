@@ -83,17 +83,24 @@ class AuthManager(private val context: Context) {
         return result
     }
 
+    @Volatile
+    private var lastInitException: Throwable? = null
+
     private fun getFirebaseAuth(): FirebaseAuth? {
         return try {
             if (FirebaseApp.getApps(context).isEmpty()) {
                 FirebaseApp.initializeApp(context)
             }
-            FirebaseAuth.getInstance()
+            val auth = FirebaseAuth.getInstance()
+            lastInitException = null
+            auth
         } catch (e: Exception) {
-            Log.w(TAG, "FirebaseApp initialization / FirebaseAuth error: ${e.message}")
+            lastInitException = e
+            Log.e(TAG, "FirebaseApp initialization / FirebaseAuth error: ${e.message}", e)
             try {
                 FirebaseAuth.getInstance()
             } catch (e2: Exception) {
+                lastInitException = e2
                 null
             }
         }
@@ -189,7 +196,8 @@ class AuthManager(private val context: Context) {
 
         val auth = getFirebaseAuth()
         if (auth == null) {
-            onFailure("Firebase Authentication is not available. Please check google-services.json.")
+            val detail = lastInitException?.let { "${it.javaClass.simpleName}: ${it.message}" } ?: "FirebaseApp not initialized"
+            onFailure("Firebase Authentication initialization failed ($detail). Please check google-services.json.")
             return
         }
 
@@ -251,7 +259,8 @@ class AuthManager(private val context: Context) {
 
         val auth = getFirebaseAuth()
         if (auth == null) {
-            onFailure("Firebase Authentication is not available.")
+            val detail = lastInitException?.let { "${it.javaClass.simpleName}: ${it.message}" } ?: "FirebaseApp not initialized"
+            onFailure("Firebase Authentication initialization failed ($detail).")
             return
         }
 
