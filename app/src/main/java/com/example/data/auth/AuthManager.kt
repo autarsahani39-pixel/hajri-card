@@ -1,5 +1,6 @@
 package com.example.data.auth
 
+import android.app.Activity
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
@@ -10,6 +11,7 @@ import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.FirebaseAuthInvalidUserException
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException
+import com.google.firebase.auth.PhoneAuthProvider
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -45,10 +47,12 @@ class AuthManager(private val context: Context) {
     // Pluggable Auth Providers
     private val emailPasswordProvider: EmailPasswordAuthProvider = EmailPasswordAuthProvider(context)
     private val whatsAppProvider: WhatsAppAuthProvider = WhatsAppAuthProvider(context)
+    private val phoneAuthProvider: PhoneAuthProviderImpl = PhoneAuthProviderImpl(context)
 
     private val registeredProviders: Map<AuthType, AuthProvider> = mapOf(
         AuthType.EMAIL_PASSWORD to emailPasswordProvider,
-        AuthType.WHATSAPP to whatsAppProvider
+        AuthType.WHATSAPP to whatsAppProvider,
+        AuthType.PHONE_OTP to phoneAuthProvider
     )
 
     init {
@@ -69,7 +73,7 @@ class AuthManager(private val context: Context) {
             is AuthCredentials.WhatsApp,
             is AuthCredentials.FirebaseCustomToken -> whatsAppProvider
             is AuthCredentials.Google -> null
-            is AuthCredentials.PhoneOtp -> null
+            is AuthCredentials.PhoneOtp -> phoneAuthProvider
         } ?: return AuthResult.Error("No provider registered for given credentials.")
 
         val result = provider.authenticate(credentials)
@@ -81,14 +85,17 @@ class AuthManager(private val context: Context) {
 
     private fun getFirebaseAuth(): FirebaseAuth? {
         return try {
-            if (FirebaseApp.getApps(context).isNotEmpty()) {
+            if (FirebaseApp.getApps(context).isEmpty()) {
+                FirebaseApp.initializeApp(context)
+            }
+            FirebaseAuth.getInstance()
+        } catch (e: Exception) {
+            Log.w(TAG, "FirebaseApp initialization / FirebaseAuth error: ${e.message}")
+            try {
                 FirebaseAuth.getInstance()
-            } else {
+            } catch (e2: Exception) {
                 null
             }
-        } catch (e: Exception) {
-            Log.w(TAG, "FirebaseApp not initialized: ${e.message}")
-            null
         }
     }
 
@@ -449,6 +456,42 @@ class AuthManager(private val context: Context) {
         _userProfile.value = current.copy(
             ownerName = finalName,
             businessName = finalBusiness
+        )
+    }
+
+    /**
+     * Send Phone OTP using Firebase PhoneAuthProvider.
+     */
+    fun sendPhoneOtp(
+        activity: Activity,
+        phoneNumber: String,
+        callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks,
+        timeoutSeconds: Long = 60L
+    ) {
+        phoneAuthProvider.sendVerificationCode(activity, phoneNumber, callbacks, timeoutSeconds)
+    }
+
+    /**
+     * Verify Phone OTP and sign in to Firebase.
+     */
+    fun verifyPhoneOtp(
+        verificationId: String,
+        code: String,
+        ownerName: String = "",
+        businessName: String = "",
+        onSuccess: () -> Unit,
+        onFailure: (String) -> Unit
+    ) {
+        phoneAuthProvider.signInWithVerificationCode(
+            verificationId = verificationId,
+            code = code,
+            ownerName = ownerName,
+            businessName = businessName,
+            onSuccess = { profile ->
+                saveSession(profile)
+                onSuccess()
+            },
+            onFailure = onFailure
         )
     }
 

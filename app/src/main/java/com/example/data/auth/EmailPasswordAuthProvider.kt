@@ -22,21 +22,24 @@ class EmailPasswordAuthProvider(private val context: Context) : AuthProvider {
 
     override val isReady: Boolean
         get() = try {
-            FirebaseApp.getApps(context).isNotEmpty()
+            getFirebaseAuth() != null
         } catch (e: Exception) {
             false
         }
 
     private fun getFirebaseAuth(): FirebaseAuth? {
         return try {
-            if (FirebaseApp.getApps(context).isNotEmpty()) {
+            if (FirebaseApp.getApps(context).isEmpty()) {
+                FirebaseApp.initializeApp(context)
+            }
+            FirebaseAuth.getInstance()
+        } catch (e: Exception) {
+            Log.w(TAG, "FirebaseApp initialization / FirebaseAuth error: ${e.message}")
+            try {
                 FirebaseAuth.getInstance()
-            } else {
+            } catch (e2: Exception) {
                 null
             }
-        } catch (e: Exception) {
-            Log.w(TAG, "FirebaseApp not initialized: ${e.message}")
-            null
         }
     }
 

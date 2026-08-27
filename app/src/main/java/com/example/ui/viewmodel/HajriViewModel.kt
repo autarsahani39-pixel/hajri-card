@@ -1,5 +1,6 @@
 package com.example.ui.viewmodel
 
+import android.app.Activity
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
@@ -7,6 +8,7 @@ import com.example.data.auth.AuthCredentials
 import com.example.data.auth.AuthManager
 import com.example.data.auth.AuthResult
 import com.example.data.auth.UserProfile
+import com.google.firebase.auth.PhoneAuthProvider
 import com.example.data.language.AppLanguage
 import com.example.data.language.LanguageManager
 import com.example.data.local.HajriDatabase
@@ -389,6 +391,33 @@ class HajriViewModel(application: Application) : AndroidViewModel(application) {
                 businessName = businessName
             ),
             onResult = onResult
+        )
+    }
+
+    fun sendPhoneOtp(
+        activity: Activity,
+        phoneNumber: String,
+        callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks,
+        timeoutSeconds: Long = 60L
+    ) {
+        authManager.sendPhoneOtp(activity, phoneNumber, callbacks, timeoutSeconds)
+    }
+
+    fun verifyPhoneOtp(
+        verificationId: String,
+        code: String,
+        ownerName: String = "",
+        businessName: String = "",
+        onSuccess: () -> Unit,
+        onFailure: (String) -> Unit
+    ) {
+        authManager.verifyPhoneOtp(
+            verificationId = verificationId,
+            code = code,
+            ownerName = ownerName,
+            businessName = businessName,
+            onSuccess = onSuccess,
+            onFailure = onFailure
         )
     }
 
