@@ -1,5 +1,7 @@
 package com.example
 
+import androidx.test.core.app.ApplicationProvider
+import android.content.Context
 import com.example.data.auth.AuthCredentials
 import com.example.data.auth.AuthResult
 import com.example.data.auth.AuthType
@@ -14,24 +16,23 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
-@Config(sdk = [36])
+@Config(sdk = [34])
 class ExampleUnitTest {
+    private val context: Context = ApplicationProvider.getApplicationContext()
+
     @Test
     fun testAuthTypesAvailable() {
         assertEquals("Email & Password", AuthType.EMAIL_PASSWORD.displayName)
-        assertEquals("WhatsApp Quick Login", AuthType.WHATSAPP.displayName)
+        assertEquals("WhatsApp Authentication", AuthType.WHATSAPP.displayName)
     }
 
     @Test
-    fun testWhatsAppAuthProviderReturnsFutureIntegrationSafely() = runBlocking {
-        val provider = WhatsAppAuthProvider()
+    fun testWhatsAppAuthProviderReturnsConfigurationRequiredSafely() = runBlocking {
+        val provider = WhatsAppAuthProvider(context)
         assertFalse(provider.isReady)
         assertEquals(AuthType.WHATSAPP, provider.providerType)
 
         val result = provider.authenticate(AuthCredentials.WhatsApp(phoneNumber = "+919876543210"))
-        assertTrue(result is AuthResult.FutureIntegration)
-        val futureResult = result as AuthResult.FutureIntegration
-        assertEquals(AuthType.WHATSAPP, futureResult.provider)
-        assertTrue(futureResult.requiresBackendSetup)
+        assertTrue(result is AuthResult.ConfigurationRequired)
     }
 }
